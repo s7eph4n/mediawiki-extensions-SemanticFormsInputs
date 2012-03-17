@@ -56,7 +56,9 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 
 	} else {
 
-		button.click( function(){inputShow.focus();} );
+		button.click( function(){
+			jQuery( '#' + inputID + '_tree>ul' ).fadeToggle();
+		} );
 
 	}
 
@@ -126,7 +128,7 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 	else if ( interv > 60 ) interv = 60;
 
 	// build html structure
-	var sp = jQuery( '<span class="SFI_timepicker" id="' + inputID + '_tree" ></span>' ).insertBefore( '#' + inputIDshow );
+	var sp = jQuery( '<span class="SFI_timepicker" id="' + inputID + '_tree" ></span>' ).insertBefore( inputShow );
 
 	var ulh = jQuery( '<ul class="SFI_timepicker_hours" >' ).appendTo( sp );
 
@@ -203,7 +205,7 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 	.mousedown(function(evt){
 		
 		// set values and leave input
-		jQuery( '#' + inputIDshow )
+		inputShow
 		.attr( 'value', jQuery( this ).data( 'show' ) )
 		.blur()
 		.change();
@@ -223,19 +225,19 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 	});
 
 	// show timepicker when input gets focus
-	jQuery( '#' + inputIDshow )
+	inputShow
 	.focus(function() {
 		jQuery( '#' + inputID + '_tree>ul' ).fadeIn();
 	});
 
 	// hide timepicker when input loses focus
-	jQuery( '#' + inputIDshow )
+	inputShow
 	.blur(function() {
 		jQuery( '#' + inputID + '_tree ul' ).fadeOut( 'normal', function() {jQuery(this).hide();});
 	});
 
 	if ( ! params.partOfDTP ) {
-		jQuery( '#' + inputIDshow )
+		inputShow
 		.change(function() {
 			jQuery( '#' + inputID ).val( jQuery(this).val() );
 		});
@@ -243,11 +245,11 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 
 	jQuery( '#' + inputID + '_show ~ button[name="button"]' )
 	.click( function() {
-		jQuery( '#' + inputIDshow ).focus();
+		inputShow.focus();
 	});
 
 	jQuery( '#' + inputID + '_show ~ button[name="resetbutton"]' )
 	.click( function() {
-		jQuery( '#' + inputIDshow ).val('');
+		inputShow.val('');
 	});
 }

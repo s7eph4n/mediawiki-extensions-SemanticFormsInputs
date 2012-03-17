@@ -157,6 +157,7 @@ window.SFI_DP_init = function ( input_id, params ) {
 				}
 			});
 		}
+		inputShow.datepicker( 'widget' ).hide();
 	}
 }
 
