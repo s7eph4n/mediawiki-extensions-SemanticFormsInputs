@@ -572,6 +572,23 @@ $messages['id'] = array(
 	'semanticformsinputs-today' => 'Hari ini',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'semanticformsinputs-wrongformat' => 'Formato errato.',
+	'semanticformsinputs-close' => 'Chiudi',
+	'semanticformsinputs-prev' => 'Precedente',
+	'semanticformsinputs-next' => 'Successivo',
+	'semanticformsinputs-today' => 'Oggi',
+	'semanticformsinputs-malformedregexp' => 'Espressione regolare mal formattata ($1).',
+	'semanticformsinputs-datepicker-weekstart' => 'Il primo giorno della settimana (0 - domenica, 1 - lunedì, ...).',
+	'semanticformsinputs-datepicker-firstdate' => 'La prima data che può essere scelta (in formato aaaa/mm/gg).',
+	'semanticformsinputs-datepicker-lastdate' => "L'ultima data che può essere scelta (in formato aaaa/mm/gg).",
+	'semanticformsinputs-datepicker-disabledaysofweek' => 'Un elenco di giorni che non può essere selezionato (ad esempio il fine settimana: 6, 0).',
+	'semanticformsinputs-datepicker-highlightdaysofweek' => 'Un elenco dei giorni da far apparire evidenziati (per esempio il fine settimana: 6, 0).',
+);
+
 /** Japanese (日本語)
  * @author Yanajin66
  * @author 青子守歌
