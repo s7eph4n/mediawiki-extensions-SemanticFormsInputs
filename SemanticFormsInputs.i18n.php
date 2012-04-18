@@ -590,6 +590,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Shirayuki
  * @author Yanajin66
  * @author 青子守歌
  */
@@ -600,6 +601,7 @@ $messages['ja'] = array(
 	'semanticformsinputs-prev' => '前へ',
 	'semanticformsinputs-next' => '次へ',
 	'semanticformsinputs-today' => '今日',
+	'semanticformsinputs-dateformatshort' => 'yy/mm/dd',
 );
 
 /** Khmer (ភាសាខ្មែរ)
