@@ -82,7 +82,7 @@ class SFIDatePicker extends SFFormInput {
 			
 			// set localized messages (use MW i18n, not jQuery i18n)
 			$jstext =
-				"mw.loader.using('jquery.ui.datepicker', function(){\n"
+				"jQuery(function(){mw.loader.using('jquery.ui.datepicker', function(){\n"
 				. "	jQuery.datepicker.regional['wiki'] = {\n"
 				. "		closeText: '" . Xml::escapeJsString( wfMsg( 'semanticformsinputs-close' ) ) . "',\n"
 				. "		prevText: '" . Xml::escapeJsString( wfMsg( 'semanticformsinputs-prev' ) ) . "',\n"
@@ -145,7 +145,7 @@ class SFIDatePicker extends SFFormInput {
 				. "		showMonthAfterYear: false,\n"
 				. "		yearSuffix: ''};\n"
 				. "	jQuery.datepicker.setDefaults(jQuery.datepicker.regional['wiki']);\n"
-				. "});\n";
+				. "});});\n";
 
 			$wgOut->addScript( Html::inlineScript(  $jstext ) );
 			
