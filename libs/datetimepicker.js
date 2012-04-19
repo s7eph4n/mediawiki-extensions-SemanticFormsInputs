@@ -10,6 +10,8 @@ window.SFI_DTP_init = function( inputId, params ) {
 
 	var input = jQuery( '#' + inputId );
 	
+	var tabindex = input.attr('tabindex');
+	
 	var hiddenInput = jQuery( '<input type="hidden" >' );
 	
 	hiddenInput.attr( {
@@ -72,7 +74,7 @@ window.SFI_DTP_init = function( inputId, params ) {
 			
 		} else {
 			
-			var resetbutton = jQuery('<button type="button" class="ui-datetimepicker-trigger ' + params.userClasses + '" ><img src="' + params.resetButtonImage + '" alt="..." title="..."></button>');
+			var resetbutton = jQuery('<button type="button" class="ui-datetimepicker-trigger ' + params.userClasses + '" tabindex="' + tabindex + '" ><img src="' + params.resetButtonImage + '" alt="..." title="..."></button>');
 			input.before( resetbutton );
 			
 			resetbutton.click( function(){

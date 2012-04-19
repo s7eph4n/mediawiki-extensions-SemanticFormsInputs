@@ -42,11 +42,14 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 		input = inputShow;
 	}
 	
+	var tabindex = inputShow.attr('tabindex');
+	
 	// append time picker button
 	var button = jQuery( '<button type="button" ></button>' );
 	button.attr({
 		'class': params.userClasses,
-		'id': inputID + '_button'
+		'id': inputID + '_button',
+		'tabindex': tabindex
 	});
 			
 
@@ -80,7 +83,8 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 		var resetbutton = jQuery('<button type="button" ></button>');
 		resetbutton.attr({
 			'class': params.userClasses,
-			'id': inputID + '_resetbutton'
+			'id': inputID + '_resetbutton',
+			'tabindex': tabindex
 		});
 
 		if ( params.disabled ) {

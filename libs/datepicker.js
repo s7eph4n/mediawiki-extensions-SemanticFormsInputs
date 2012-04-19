@@ -28,6 +28,8 @@ window.SFI_DP_init = function ( input_id, params ) {
 	}
 			
 	
+	var tabindex = inputShow.attr('tabindex');
+	
 	var re = /\d{4}\/\d{2}\/\d{2}/
 
 	if ( params.disabled ) {
@@ -52,7 +54,7 @@ window.SFI_DP_init = function ( input_id, params ) {
 		// append reset button if image is set
 		if ( params.resetButtonImage && ! params.partOfDTP ) {
 			
-			var resetbutton = jQuery( '<button type="button" class="ui-datepicker-trigger ' + params.userClasses + '" ><img src="' + params.resetButtonImage + '" alt="..." title="..."></button>' );
+			var resetbutton = jQuery( '<button type="button" class="ui-datepicker-trigger ' + params.userClasses + '"><img src="' + params.resetButtonImage + '" alt="..." title="..."></button>' );
 			inputShow.after( resetbutton );
 			resetbutton.click( function(){
 				inputShow.datepicker( 'setDate', null);
@@ -75,6 +77,11 @@ window.SFI_DP_init = function ( input_id, params ) {
 			'dateFormat': params.dateFormat,
 			'beforeShowDay': function ( date ) {return SFI_DP_checkDate( '#' + input_id + '_show', date );}
 		} );
+		
+		// at least in FF tabindex needs to be set delayed
+		setTimeout(function(){
+			inputShow.siblings('button').attr('tabindex', tabindex);
+		}, 0);
 
 		if ( params.minDate ) {
 			inputShow.datepicker( 'option', 'minDate',
