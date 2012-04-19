@@ -129,17 +129,6 @@ window.SFI_DP_init = function ( input_id, params ) {
 			inputShow.datepicker( 'option', 'highlightedDays', params.highlightedDays );
 		}
 
-		if ( re.test( params.currValue ) ) {
-			inputShow.datepicker( 'setDate', jQuery.datepicker.parseDate( 'yy/mm/dd', params.currValue, null ) );
-		} else {
-			
-			inputShow.val( params.currValue );
-			
-			if (params.partOfDTP) {
-				input.val( params.currValue );
-			}
-		}
-
 		if ( ! params.partOfDTP ) {
 
 			inputShow.datepicker( 'option', 'altField', input );
@@ -157,6 +146,14 @@ window.SFI_DP_init = function ( input_id, params ) {
 				}
 			});
 		}
+		
+		if ( re.test( params.currValue ) ) {
+			inputShow.datepicker( 'setDate', jQuery.datepicker.parseDate( 'yy/mm/dd', params.currValue, null ) );
+		} else {
+			inputShow.val( params.currValue );
+			input.val( params.currValue );
+		}
+
 		inputShow.datepicker( 'widget' ).hide();
 	}
 }
