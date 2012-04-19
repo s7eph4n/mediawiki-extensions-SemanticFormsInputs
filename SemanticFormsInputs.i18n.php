@@ -271,6 +271,7 @@ $messages['cs'] = array(
 );
 
 /** German (Deutsch)
+ * @author F.trott
  * @author Kghbln
  */
 $messages['de'] = array(
@@ -280,8 +281,8 @@ $messages['de'] = array(
 	'semanticformsinputs-prev' => 'Voriger Monat',
 	'semanticformsinputs-next' => 'Nächster Monat',
 	'semanticformsinputs-today' => 'Heute',
-	'semanticformsinputs-dateformatlong' => 'T. MM JJ',
-	'semanticformsinputs-dateformatshort' => 'TT.MM.JJ',
+	'semanticformsinputs-dateformatlong' => 'd. MM yy',
+	'semanticformsinputs-dateformatshort' => 'dd.mm.yy',
 	'semanticformsinputs-firstdayofweek' => '1',
 	'semanticformsinputs-malformedregexp' => 'Fehlerhafter regulärer Ausdruck ($1)',
 	'semanticformsinputs-datepicker-dateformat' => 'Die Zeichenfolge des Datumsformats. Siehe hierzu die [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters Online-Dokumentation] für weitere Informationen.',
