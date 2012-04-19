@@ -64,7 +64,7 @@ class SFIDatePicker extends SFFormInput {
 	 * @return null|string|array
 	 */
 	public function getResourceModuleNames() {
-		return 'ext.semanticformsinputs.datepicker';
+		return array( 'jquery.ui.datepicker', 'ext.semanticformsinputs.datepicker' );
 	}
 
 	/**
@@ -82,7 +82,7 @@ class SFIDatePicker extends SFFormInput {
 			
 			// set localized messages (use MW i18n, not jQuery i18n)
 			$jstext =
-				"mw.loader.using('ext.semanticformsinputs.datepicker', function(){\n"
+				"mw.loader.using('jquery.ui.datepicker', function(){\n"
 				. "	jQuery.datepicker.regional['wiki'] = {\n"
 				. "		closeText: '" . Xml::escapeJsString( wfMsg( 'semanticformsinputs-close' ) ) . "',\n"
 				. "		prevText: '" . Xml::escapeJsString( wfMsg( 'semanticformsinputs-prev' ) ) . "',\n"
