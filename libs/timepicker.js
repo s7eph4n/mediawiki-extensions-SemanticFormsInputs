@@ -57,7 +57,12 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 	} else {
 
 		button.click( function(){
-			jQuery( '#' + inputID + '_tree>ul' ).fadeToggle();
+			if ( jQuery( '#' + inputID + '_tree>ul' ).is(':visible') ) {
+				inputShow.blur();
+			} else {
+				inputShow.focus();
+			}
+			
 		} );
 
 	}
