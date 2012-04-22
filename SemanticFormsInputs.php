@@ -9,7 +9,7 @@
  * @author Jeroen de Dauw 
  * @author Sanyam Goyal
  * 
- * @version 0.6 alpha
+ * @version 0.6
  */
 
 /**
@@ -31,17 +31,17 @@ if ( !defined( 'SF_VERSION' ) ) {
 	die( '<b>Error:</b> <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs">Semantic Forms Inputs</a> is a Semantic Forms extension. You need to install <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms</a> first.' );
 }
 
-if ( version_compare( SF_VERSION, '2.4.1-alpha', 'lt' ) ) {
+if ( version_compare( SF_VERSION, '2.4.2', 'lt' ) ) {
 	die( '<b>Error:</b> This version of <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs">Semantic Forms Inputs</a> is only compatible with Semantic Forms 2.4.1 or above. You need to upgrade <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms</a> first.' );
 }
 
-define( 'SFI_VERSION', '0.6 alpha' );
+define( 'SFI_VERSION', '0.6' );
 
 // create and initialize settings
 $sfigSettings = new SFISettings();
 
 // register extension
-$wgExtensionCredits[defined( 'SEMANTIC_EXTENSION_TYPE' ) ? 'semantic' : 'other'][] = array(
+$wgExtensionCredits[defined( 'semantic' )][] = array(
 	'path' => __FILE__,
 	'name' => 'Semantic Forms Inputs',
 	'author' => array( '[http://www.mediawiki.org/wiki/User:F.trott Stephan Gambke]', '...' ),
