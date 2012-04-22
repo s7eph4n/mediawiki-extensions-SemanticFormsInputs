@@ -41,7 +41,7 @@ define( 'SFI_VERSION', '0.6' );
 $sfigSettings = new SFISettings();
 
 // register extension
-$wgExtensionCredits[defined( 'semantic' )][] = array(
+$wgExtensionCredits[ 'semantic' ][] = array(
 	'path' => __FILE__,
 	'name' => 'Semantic Forms Inputs',
 	'author' => array( '[http://www.mediawiki.org/wiki/User:F.trott Stephan Gambke]', '...' ),
