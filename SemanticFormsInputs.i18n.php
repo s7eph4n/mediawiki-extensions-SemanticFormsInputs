@@ -603,6 +603,7 @@ $messages['ja'] = array(
 	'semanticformsinputs-next' => '次へ',
 	'semanticformsinputs-today' => '今日',
 	'semanticformsinputs-dateformatshort' => 'yy/mm/dd',
+	'semanticformsinputs-datepicker-weekstart' => '週の初日の曜日（0：日曜日、1：月曜日、...）',
 );
 
 /** Khmer (ភាសាខ្មែរ)
