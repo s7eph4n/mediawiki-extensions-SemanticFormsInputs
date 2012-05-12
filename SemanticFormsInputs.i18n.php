@@ -786,6 +786,7 @@ $messages['pfl'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -795,6 +796,14 @@ $messages['pl'] = array(
 	'semanticformsinputs-prev' => 'Poprzednie',
 	'semanticformsinputs-next' => 'Następne',
 	'semanticformsinputs-today' => 'Dziś',
+	'semanticformsinputs-malformedregexp' => 'Nieprawidłowe wyrażenie regularne ( $1 ).',
+	'semanticformsinputs-datepicker-weekstart' => 'Pierwszy dzień tygodnia (0 - niedziela, 1 - poniedziałek,...).',
+	'semanticformsinputs-datepicker-firstdate' => 'Pierwsza data, która może zostać wybrana (w formacie rrrr/mm/dd).',
+	'semanticformsinputs-datepicker-lastdate' => 'Ostatnia data, która może zostać wybrana (w formacie rrrr/mm/dd).',
+	'semanticformsinputs-datepicker-disabledaysofweek' => 'Wykaz dni, które nie mogą zostać wybrane (np. weekendowe: 6, 0).',
+	'semanticformsinputs-datepicker-highlightdaysofweek' => 'Wykaz dni, które jest powinny być podświetlone (np. weekendowe: 6, 0).',
+	'semanticformsinputs-datepicker-disabledates' => 'Rozdzielana przecinkami lista dat/zakresy dat (daty w formacie rrrr/mm/dd, zakresy w formacie rrrr/mm/dd-rrrr/mm/dd).',
+	'semanticformsinputs-menuselect-structure' => 'Struktura menu jako lista nieuporządkowana.',
 );
 
 /** Piedmontese (Piemontèis)
@@ -897,6 +906,13 @@ $messages['tl'] = array(
 	'semanticformsinputs-prev' => 'Nakaraan',
 	'semanticformsinputs-next' => 'Susunod',
 	'semanticformsinputs-today' => 'Ngayon',
+);
+
+/** Turkish (Türkçe)
+ * @author Suelnur
+ */
+$messages['tr'] = array(
+	'semanticformsinputs-today' => 'Bugün',
 );
 
 /** Ukrainian (Українська)
