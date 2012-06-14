@@ -172,7 +172,7 @@ $messages['arc'] = array(
 	'semanticformsinputs-today' => 'ܝܘܡܢܐ',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -184,7 +184,7 @@ $messages['ast'] = array(
 	'semanticformsinputs-today' => 'Güei',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -205,7 +205,7 @@ $messages['be-tarask'] = array(
 	'semanticformsinputs-today' => 'Сёньня',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -226,7 +226,7 @@ $messages['bn'] = array(
 	'semanticformsinputs-today' => 'আজ',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Gwendal
  * @author Y-M D
  */
@@ -239,7 +239,7 @@ $messages['br'] = array(
 	'semanticformsinputs-today' => 'Hiziv',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -251,7 +251,7 @@ $messages['bs'] = array(
 	'semanticformsinputs-today' => 'Danas',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Toniher
  */
 $messages['ca'] = array(
@@ -263,7 +263,7 @@ $messages['ca'] = array(
 	'semanticformsinputs-today' => 'Avui',
 );
 
-/** Czech (Česky) */
+/** Czech (česky) */
 $messages['cs'] = array(
 	'semanticformsinputs-close' => 'Zavřít',
 	'semanticformsinputs-prev' => 'Předchozí',
@@ -323,7 +323,7 @@ $messages['dsb'] = array(
 	'semanticformsinputs-today' => 'Źinsa',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Danke7
  * @author Translationista
@@ -362,7 +362,7 @@ $messages['es'] = array(
 	'semanticformsinputs-menuselect-enableinputfield' => '¿Debe el usuario ser capaz de completar el campo de entrada directamente?',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author F.trott
  * @author Gomoko
@@ -403,7 +403,7 @@ $messages['fr'] = array(
 	'semanticformsinputs-menuselect-enableinputfield' => "L'utilisateur doit-il pouvoir remplir le champ d'entrée directement?",
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -512,7 +512,7 @@ $messages['hsb'] = array(
 	'semanticformsinputs-menuselect-enableinputfield' => 'Ma wužiwar zapodawanske polo direktnje móc wupjelnić?',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -523,7 +523,7 @@ $messages['hu'] = array(
 	'semanticformsinputs-today' => 'Ma',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -573,7 +573,7 @@ $messages['id'] = array(
 	'semanticformsinputs-today' => 'Hari ini',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -654,7 +654,7 @@ $messages['lb'] = array(
 	'semanticformsinputs-menuselect-enableinputfield' => "Soll et dem Benotzer méiglech si fir d'Feld direkt auszefëllen?",
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author F.trott
  */
@@ -785,7 +785,7 @@ $messages['pfl'] = array(
 	'semanticformsinputs-next' => 'Negschte',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Sp5uhe
  */
@@ -819,7 +819,7 @@ $messages['pms'] = array(
 	'semanticformsinputs-today' => 'Ancheuj',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -831,7 +831,7 @@ $messages['pt'] = array(
 	'semanticformsinputs-today' => 'Hoje',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -843,7 +843,7 @@ $messages['pt-br'] = array(
 	'semanticformsinputs-today' => 'Hoje',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -851,7 +851,7 @@ $messages['roa-tara'] = array(
 	'semanticformsinputs-wrongformat' => 'Formate sbagliate',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author F.trott
  * @author MaxSem
@@ -872,7 +872,7 @@ $messages['ru'] = array(
 	'semanticformsinputs-datepicker-highlightdaysofweek' => 'Список дней, которые должны подсвечиваться (например, выходные: 6, 0).',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -881,7 +881,7 @@ $messages['sr-ec'] = array(
 	'semanticformsinputs-firstdayofweek' => '1',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'semanticformsinputs-firstdayofweek' => '1',
 );
@@ -915,7 +915,7 @@ $messages['tr'] = array(
 	'semanticformsinputs-today' => 'Bugün',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Тест
  */
 $messages['uk'] = array(
@@ -935,7 +935,7 @@ $messages['vi'] = array(
 	'semanticformsinputs-today' => 'Hôm nay',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Liangent
  * @author Linforest
  */
@@ -973,7 +973,7 @@ $messages['zh-hans'] = array(
 	'semanticformsinputs-menuselect-enableinputfield' => '用户是否应该能够直接填写输入文本框？',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
