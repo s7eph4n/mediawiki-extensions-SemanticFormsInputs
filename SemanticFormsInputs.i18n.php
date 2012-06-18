@@ -803,7 +803,15 @@ $messages['pl'] = array(
 	'semanticformsinputs-datepicker-disabledaysofweek' => 'Wykaz dni, które nie mogą zostać wybrane (np. weekendowe: 6, 0).',
 	'semanticformsinputs-datepicker-highlightdaysofweek' => 'Wykaz dni, które jest powinny być podświetlone (np. weekendowe: 6, 0).',
 	'semanticformsinputs-datepicker-disabledates' => 'Rozdzielana przecinkami lista dat/zakresy dat (daty w formacie rrrr/mm/dd, zakresy w formacie rrrr/mm/dd-rrrr/mm/dd).',
+	'semanticformsinputs-datepicker-showweeknumbers' => 'Czy pokazywać numer tygodnia na lewo od tygodnia?',
+	'semanticformsinputs-datepicker-enableinputfield' => 'Czy użytkownik ma prawo wprowadzić dane bezpośrednio w pole, czy tylko przy użyciu kalendarzyka?',
+	'semanticformsinputs-timepicker-mintime' => 'Najwcześniejszy czas do wyświetlenia. Format: gg:mm',
+	'semanticformsinputs-timepicker-maxtime' => 'Najpóźniejszy czas do wyświetlenia. Format: gg:mm',
+	'semanticformsinputs-timepicker-interval' => 'Interwał między minutami. Liczba między 1 i 60.',
+	'semanticformsinputs-timepicker-enableinputfield' => 'Czy użytkownik ma możliwość bezpośredniego wpisania daty, czy tylko przez kalendarzyk?',
+	'semanticformsinputs-regexp-orchar' => 'Znak LUB stosowany w wyrażeniu regularnym zamiast |. Domyślnie "!"',
 	'semanticformsinputs-menuselect-structure' => 'Struktura menu jako lista nieuporządkowana.',
+	'semanticformsinputs-menuselect-enableinputfield' => 'Czy użytkownik może bezpośrednio wprowadzać zawartość pola?',
 );
 
 /** Piedmontese (Piemontèis)
