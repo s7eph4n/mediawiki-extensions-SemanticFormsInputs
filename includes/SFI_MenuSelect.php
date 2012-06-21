@@ -19,7 +19,7 @@ if ( !defined( 'SFI_VERSION' ) ) {
  */
 class SFIMenuSelect extends SFFormInput {
 
-	
+
 	/**
 	 * Constructor.
 	 *
@@ -36,13 +36,13 @@ class SFIMenuSelect extends SFFormInput {
 	 *		input definition.
 	 */
 	public function __construct( $input_number, $cur_value, $input_name, $disabled, $other_args ) {
-		
+
 		parent::__construct( $input_number, $cur_value, $input_name, $disabled, $other_args );
-		
+
 		self::setup();
 
 		$this->addJsInitFunctionData( 'SFI_MS_init', 'null' );
-		
+
 
 	}
 
@@ -72,17 +72,17 @@ class SFIMenuSelect extends SFFormInput {
 			$hasRun = true;
 
 			$wgHooks['MakeGlobalVariablesScript'][] = 'SFIMenuSelect::setGlobalVariables';
-			
+
 		}
 
 	}
-	
+
 	static public function setGlobalVariables( &$vars ) {
 		global $sfigSettings;
 		$vars['sfigScriptPath'] = $sfigSettings->scriptPath;
 		return true;
 	}
-	
+
 	/**
 	 * Returns the HTML code to be included in the output page for this input.
 	 *
@@ -105,15 +105,18 @@ class SFIMenuSelect extends SFFormInput {
 		// second: assemble HTML
 		// create visible input field (for display) and invisible field (for data)
 		$html = SFIUtils::textHTML( $this->mCurrentValue, '', $inputFieldDisabled, $this->mOtherArgs, "input_{$this->mInputNumber}_show", null, "createboxInput" )
-				. Xml::element( "input", array(
+				. Html::rawElement('span', array(
+					'class' => 'inputSpan' . ($this->mIsMandatory ? ' mandatoryFieldSpan' : '')
+				) ,
+					Html::element( "input", array(
 					'id' => "input_{$this->mInputNumber}",
 					'type' => 'hidden',
 					'name' => $this->mInputName,
 					'value' => $this->mCurrentValue
-				) );
+				) ) );
 
 
-		$html .= "<span class='SFI_menuselect' id='span_{$this->mInputNumber}_tree'>";
+		$html .= "<div class='SFI_menuselect' id='span_{$this->mInputNumber}_tree'>";
 
 
 		// parse menu structure
@@ -124,13 +127,13 @@ class SFIMenuSelect extends SFFormInput {
 
 		$structure = $wgParser->doBlockLevels( $structure, true );
 		$wgParser->replaceLinkHolders( $structure );
-		
+
 		$html .= str_replace( '<li', '<li class=\'ui-state-default\'', $structure );
 
-		$html .= "</span>";
+		$html .= "</div>";
 
-		// wrap in span (e.g. used for mandatory inputs)
-		$html = '<span class="inputSpan' . ($this->mIsMandatory ? ' mandatoryFieldSpan' : '') . '">' .$html . '</span>';
+		// wrap in div
+		$html = '<div>' .$html . '</div>';
 
 		return $html;
 
@@ -162,14 +165,14 @@ class SFIMenuSelect extends SFFormInput {
 			'description' => wfMsg( 'semanticformsinputs-menuselect-enableinputfield' ),
 		);
 		return $params;
-	}	
+	}
 
 	/**
 	 * Returns the names of the resource modules this input type uses.
-	 * 
-	 * Returns the names of the modules as an array or - if there is only one 
+	 *
+	 * Returns the names of the modules as an array or - if there is only one
 	 * module - as a string.
-	 * 
+	 *
 	 * @return null|string|array
 	 */
 	public function getResourceModuleNames() {
