@@ -40,7 +40,7 @@ window.SFI_MS_init = function( inputID, params ) {
 					.filter(function() {
 					  return ! jQuery( this ).is('ul');
 					});
-				
+
 				contents
 				.wrapAll( '<table><tbody><tr><td class="cont"/>' );
 
@@ -247,6 +247,11 @@ window.SFI_MS_init = function( inputID, params ) {
 
 		// show top menu when input gets focus
 		inputShow
+		.keyup( function() {
+				// just use text of list item
+				jQuery( "#" + inputID ).attr( "value", inputShow.val() );
+		})
+
 		.focus( function() {
 			treeRoot
 			.css( "display", "inline" )
