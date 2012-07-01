@@ -192,7 +192,7 @@ $messages['az'] = array(
 	'semanticformsinputs-today' => 'Bu gün',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -311,7 +311,7 @@ $messages['de'] = array(
 	'semanticformsinputs-menuselect-enableinputfield' => 'Sollen die Benutzer die Eingabefelder direkt bearbeiten können?',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -414,7 +414,7 @@ $messages['frp'] = array(
 	'semanticformsinputs-today' => 'Houé',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -475,7 +475,7 @@ $messages['he'] = array(
 	'semanticformsinputs-today' => 'היום',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
