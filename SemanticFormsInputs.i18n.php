@@ -931,6 +931,11 @@ $messages['tl'] = array(
 	'semanticformsinputs-prev' => 'Nakaraan',
 	'semanticformsinputs-next' => 'Susunod',
 	'semanticformsinputs-today' => 'Ngayon',
+	'semanticformsinputs-datepicker-weekstart' => 'Ang unang araw ng linggo (0 - Linggo, 1 - Lunes, ...).',
+	'semanticformsinputs-timepicker-mintime' => 'Ang pinaka maagang oras na ipapakita. Anyo: oo:mm',
+	'semanticformsinputs-timepicker-maxtime' => 'Ang pinaka huling oras na ipapakita: Anyo: oo:mm',
+	'semanticformsinputs-timepicker-interval' => 'Agwat sa pagitan ng mga minuto. Bilang sa pagitan ng 1 at 60.',
+	'semanticformsinputs-menuselect-structure' => 'Ang kayarian ng menu bilang isang listahang walang pagkakasunud-sunod.',
 );
 
 /** Turkish (Türkçe)
