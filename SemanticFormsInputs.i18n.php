@@ -369,6 +369,16 @@ $messages['es'] = array(
 	'semanticformsinputs-menuselect-enableinputfield' => '¿Debe el usuario ser capaz de completar el campo de entrada directamente?',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'semanticformsinputs-close' => 'بستن',
+	'semanticformsinputs-prev' => 'قبلی',
+	'semanticformsinputs-next' => 'بعدی',
+	'semanticformsinputs-today' => 'امروز',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author F.trott
