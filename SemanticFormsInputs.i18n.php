@@ -628,6 +628,22 @@ $messages['ja'] = array(
 	'semanticformsinputs-datepicker-weekstart' => '週の初日の曜日（0：日曜日、1：月曜日、...）',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'semanticformsinputs-wrongformat' => 'არასწორი ფორმატი.',
+	'semanticformsinputs-close' => 'დახურვა',
+	'semanticformsinputs-prev' => 'წინა',
+	'semanticformsinputs-next' => 'შემდეგი',
+	'semanticformsinputs-today' => 'დღეს',
+	'semanticformsinputs-datepicker-weekstart' => 'კვირის პირველი დღე (0 - კვირა, 1 - ორშაბათი, ...).',
+	'semanticformsinputs-datepicker-firstdate' => 'პირველი თარიღი, რომელიც შეიძლება აირჩეს (წწწწ/თთ/დდ ფორმატით).',
+	'semanticformsinputs-datepicker-lastdate' => 'ბოლო თარიღი, რომელიც შეიძლება აირჩეს (წწწწ/თთ/დდ ფორმატით).',
+	'semanticformsinputs-datepicker-disabledaysofweek' => 'დღეების სია რომელთა არჩევა ვერ მოხერხდება (მაგ. დასვენების დღეები: 6, 0).',
+	'semanticformsinputs-datepicker-highlightdaysofweek' => 'დღეების სია რომლებიც უნდა ჩანდნენ (მაგ. დასვენების დღეები: 6, 0).',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  * @author វ័ណថារិទ្ធ
@@ -864,6 +880,16 @@ $messages['pms'] = array(
 	'semanticformsinputs-prev' => 'Prima',
 	'semanticformsinputs-next' => 'Apress',
 	'semanticformsinputs-today' => 'Ancheuj',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'semanticformsinputs-close' => 'تړل',
+	'semanticformsinputs-prev' => 'پخوانی',
+	'semanticformsinputs-next' => 'راتلونکی',
+	'semanticformsinputs-today' => 'نن',
 );
 
 /** Portuguese (português)
