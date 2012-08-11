@@ -100,6 +100,7 @@ $messages['qqq'] = array(
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author F.trott
+ * @author Kghbln
  * @author The Evil IP address
  * @author Umherirrender
  */
@@ -136,7 +137,7 @@ $messages['qqq'] = array(
 	'semanticformsinputs-regexp-regexp' => 'This is a help text for the Special:CreateForm page.',
 	'semanticformsinputs-regexp-basetype' => 'This is a help text for the Special:CreateForm page.',
 	'semanticformsinputs-regexp-baseprefix' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-regexp-orchar' => 'This is a help text for the Special:CreateForm page.',
+	'semanticformsinputs-regexp-orchar' => 'This is a help text for the Special:CreateForm page. OR is an operator to handle [[wikipedia:Logical_disjunction|disjunctions]].',
 	'semanticformsinputs-regexp-inverse' => 'This is a help text for the Special:CreateForm page.',
 	'semanticformsinputs-regexp-message' => 'This is a help text for the Special:CreateForm page.',
 	'semanticformsinputs-menuselect-structure' => 'This is a help text for the Special:CreateForm page.',
@@ -263,11 +264,15 @@ $messages['ca'] = array(
 	'semanticformsinputs-today' => 'Avui',
 );
 
-/** Czech (česky) */
+/** Czech (česky)
+ * @author Reaperman
+ */
 $messages['cs'] = array(
+	'semanticformsinputs-wrongformat' => 'Chybný formát.',
 	'semanticformsinputs-close' => 'Zavřít',
 	'semanticformsinputs-prev' => 'Předchozí',
 	'semanticformsinputs-next' => 'Další',
+	'semanticformsinputs-today' => 'Dnes',
 );
 
 /** German (Deutsch)
