@@ -945,6 +945,17 @@ $messages['ru'] = array(
 	'semanticformsinputs-datepicker-highlightdaysofweek' => 'Список дней, которые должны подсвечиваться (например, выходные: 6, 0).',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'semanticformsinputs-wrongformat' => 'වැරදි ආකෘතිය.',
+	'semanticformsinputs-close' => 'වසන්න',
+	'semanticformsinputs-prev' => 'පෙර',
+	'semanticformsinputs-next' => 'මීළඟ',
+	'semanticformsinputs-today' => 'අද',
+);
+
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
@@ -957,6 +968,16 @@ $messages['sr-ec'] = array(
 /** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'semanticformsinputs-firstdayofweek' => '1',
+);
+
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'semanticformsinputs-close' => 'மூடுக',
+	'semanticformsinputs-prev' => 'முந்தைய',
+	'semanticformsinputs-next' => 'அடுத்தது',
+	'semanticformsinputs-today' => 'இன்று',
 );
 
 /** Telugu (తెలుగు)
