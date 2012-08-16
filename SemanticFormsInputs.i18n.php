@@ -447,6 +447,15 @@ $messages['frp'] = array(
 	'semanticformsinputs-today' => 'Houé',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'semanticformsinputs-close' => 'Dún',
+	'semanticformsinputs-prev' => 'Siar',
+	'semanticformsinputs-next' => 'Ar aghaidh',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -1072,6 +1081,14 @@ $messages['vi'] = array(
 	'semanticformsinputs-prev' => 'Trước',
 	'semanticformsinputs-next' => 'Sau',
 	'semanticformsinputs-today' => 'Hôm nay',
+);
+
+/** Yiddish (ייִדיש)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['yi'] = array(
+	'semanticformsinputs-close' => 'שליסן',
+	'semanticformsinputs-today' => 'הײַנט',
 );
 
 /** Simplified Chinese (‪中文（简体）‬)
