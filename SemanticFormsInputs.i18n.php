@@ -395,6 +395,17 @@ $messages['fa'] = array(
 	'semanticformsinputs-today' => 'امروز',
 );
 
+/** Finnish (suomi)
+ * @author Beluga
+ */
+$messages['fi'] = array(
+	'semanticformsinputs-wrongformat' => 'Väärä muoto.',
+	'semanticformsinputs-close' => 'Sulje',
+	'semanticformsinputs-prev' => 'Edellinen',
+	'semanticformsinputs-next' => 'Seuraava',
+	'semanticformsinputs-today' => 'Tänään',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author F.trott
