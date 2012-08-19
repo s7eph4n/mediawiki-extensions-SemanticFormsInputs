@@ -645,7 +645,7 @@ $messages['it'] = array(
 	'semanticformsinputs-datepicker-disabledates' => 'Un elenco di date/intervalli di date separate da una virgola (le date nel formato aaaa/mm/gg, gli intervalli nel formato aaaa/mm/gg-aaaa/mm/gg).',
 	'semanticformsinputs-datepicker-highlightdates' => 'Un elenco di date/intervalli di date che saranno mostrate evidenziate (le date nel formato aaaa/mm/gg, gli intervalli nel formato aaaa/mm/gg-aaaa/mm/gg).',
 	'semanticformsinputs-datepicker-showweeknumbers' => 'I numeri delle settimane dovrebbero essere mostrati a sinistra della settimana?',
-	'semanticformsinputs-datepicker-enableinputfield' => "Dovrebbe l'utente essere in grado di immettere manualmente la data o dovrebbe farlo solo attraverso la selezione?",
+	'semanticformsinputs-datepicker-enableinputfield' => "L'utente dovrebbe essere in grado di immettere manualmente la data o dovrebbe farlo solo attraverso la selezione?",
 	'semanticformsinputs-datepicker-showresetbutton' => "Dovrebbe essere mostrato un pulsante di reset? Questo sarebbe il solo modo che avrebbe l'utente di cancellare il campo se l'immissione manuale è disabilitata.",
 );
 
