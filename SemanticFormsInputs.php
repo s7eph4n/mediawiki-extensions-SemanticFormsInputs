@@ -3,13 +3,14 @@
  * Additional input types for [http://www.mediawiki.org/wiki/Extension:SemanticForms Semantic Forms].
  *
  * @defgroup SFI Semantic Forms Inputs
- * 
+ *
  * @author Stephan Gambke
  * @author Yaron Koren
- * @author Jeroen de Dauw 
+ * @author Jeroen de Dauw
  * @author Sanyam Goyal
- * 
- * @version 0.6
+ * @author Yury Katkov
+ *
+ * @version 0.6 alpha
  */
 
 /**
@@ -35,7 +36,7 @@ if ( version_compare( SF_VERSION, '2.4.2', 'lt' ) ) {
 	die( '<b>Error:</b> This version of <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs">Semantic Forms Inputs</a> is only compatible with Semantic Forms 2.4.1 or above. You need to upgrade <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms</a> first.' );
 }
 
-define( 'SFI_VERSION', '0.6' );
+define( 'SFI_VERSION', '0.7 alpha' );
 
 // create and initialize settings
 $sfigSettings = new SFISettings();
@@ -64,6 +65,7 @@ $wgAutoloadClasses['SFITimePicker'] = $dir . '/includes/SFI_TimePicker.php';
 $wgAutoloadClasses['SFIDateTimePicker'] = $dir . '/includes/SFI_DateTimePicker.php';
 $wgAutoloadClasses['SFIMenuSelect'] = $dir . '/includes/SFI_MenuSelect.php';
 $wgAutoloadClasses['SFIRegExp'] = $dir . '/includes/SFI_RegExp.php';
+$wgAutoloadClasses['SFITwoListBoxes'] = $dir . '/includes/SFI_TwoListBoxes.php';
 
 $wgResourceModules['ext.semanticformsinputs.datepicker'] = array(
 	'localBasePath' => $dir,
@@ -114,6 +116,18 @@ $wgResourceModules['ext.semanticformsinputs.regexp'] = array(
 	),
 );
 
+$wgResourceModules['ext.semanticformsinputs.twolistboxes'] = array(
+	'localBasePath' => $dir,
+	'remoteExtPath' => 'SemanticFormsInputs',
+	'scripts' => array(
+		'libs/jquery.quicksearch.js',
+		'libs/jquery.multi-select.js',
+		'libs/twolistboxes.js'
+	),
+	'styles' => 'skins/SFI_TwoListBoxes.css',
+	'dependencies' => 'ext.semanticforms.main'
+);
+
 /**
  * Class to encapsulate all settings
  */
@@ -148,6 +162,7 @@ function wfSFISetup() {
 	$sfgFormPrinter->registerInputType( 'SFIDateTimePicker' );
 	$sfgFormPrinter->registerInputType( 'SFIMenuSelect' );
 	$sfgFormPrinter->registerInputType( 'SFIRegExp' );
-	
+    $sfgFormPrinter->registerInputType( 'SFITwoListBoxes' );
+
 	return true;
 }
