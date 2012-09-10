@@ -661,6 +661,7 @@ $messages['ja'] = array(
 	'semanticformsinputs-prev' => '前へ',
 	'semanticformsinputs-next' => '次へ',
 	'semanticformsinputs-today' => '今日',
+	'semanticformsinputs-dateformatlong' => 'yy年mm月dd日',
 	'semanticformsinputs-dateformatshort' => 'yy/mm/dd',
 	'semanticformsinputs-datepicker-weekstart' => '週の初日の曜日（0：日曜日、1：月曜日、...）',
 );
