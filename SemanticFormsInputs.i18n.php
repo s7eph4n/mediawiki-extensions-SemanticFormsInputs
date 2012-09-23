@@ -168,8 +168,8 @@ $messages['ar'] = array(
  */
 $messages['arc'] = array(
 	'semanticformsinputs-close' => 'ܣܟܘܪ',
-	'semanticformsinputs-prev' => 'ܩܕܡ',
-	'semanticformsinputs-next' => 'ܒܬܪ',
+	'semanticformsinputs-prev' => 'ܕܩܕܡ',
+	'semanticformsinputs-next' => 'ܕܒܬܪ',
 	'semanticformsinputs-today' => 'ܝܘܡܢܐ',
 );
 
