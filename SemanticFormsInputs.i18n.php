@@ -193,7 +193,7 @@ $messages['az'] = array(
 	'semanticformsinputs-today' => 'Bu gün',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -705,7 +705,7 @@ $messages['ksh'] = array(
 	'semanticformsinputs-today' => 'Hück',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -786,7 +786,7 @@ $messages['ms'] = array(
 	'semanticformsinputs-next' => 'Berikutnya',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  * @author Nghtwlkr
  */
@@ -994,7 +994,7 @@ $messages['si'] = array(
 	'semanticformsinputs-today' => 'අද',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1105,7 +1105,7 @@ $messages['yi'] = array(
 	'semanticformsinputs-today' => 'הײַנט',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  * @author Linforest
  */
