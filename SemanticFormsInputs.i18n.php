@@ -663,6 +663,7 @@ $messages['ja'] = array(
 	'semanticformsinputs-today' => '今日',
 	'semanticformsinputs-dateformatlong' => 'yy年mm月dd日',
 	'semanticformsinputs-dateformatshort' => 'yy/mm/dd',
+	'semanticformsinputs-datepicker-dateformat' => '日付の書式の文字列です。詳細情報は[http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters オンライン ドキュメント]を参照してください。',
 	'semanticformsinputs-datepicker-weekstart' => '週の初日の曜日（0：日曜日、1：月曜日、...）',
 );
 
