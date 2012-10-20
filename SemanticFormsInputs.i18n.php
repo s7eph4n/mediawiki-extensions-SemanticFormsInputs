@@ -49,57 +49,6 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author F.trott
- * @author Siebrand
- * @author The Evil IP address
- * @author Umherirrender
- */
-$messages['qqq'] = array(
-	'semanticformsinputs-desc' => '{{desc}}',
-	'semanticformsinputs-close' => '{{Identical|Close}}',
-	'semanticformsinputs-prev' => '{{Identical|Previous}}',
-	'semanticformsinputs-next' => '{{Identical|Next}}',
-	'semanticformsinputs-dateformatlong' => "{{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}
-
-{{doc-important|This is an ''optional'' message. Do not translate it, if it would remain unchanged in your language. }}",
-	'semanticformsinputs-dateformatshort' => "{{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}
-
-{{doc-important|This is an ''optional'' message. Do not translate it, if it would remain unchanged in your language. }}",
-	'semanticformsinputs-firstdayofweek' => '{{optional}}
-0 - sunday, 1 - monday...',
-	'semanticformsinputs-malformedregexp' => 'An error message.',
-
-	'semanticformsinputs-datepicker-dateformat' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-weekstart' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-firstdate' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-lastdate' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-disabledaysofweek' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-highlightdaysofweek' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-disabledates' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-highlightdates' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-showweeknumbers' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-enableinputfield' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-datepicker-showresetbutton' => 'This is a help text for the Special:CreateForm page.',
-	
-	'semanticformsinputs-timepicker-mintime' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-timepicker-maxtime' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-timepicker-interval' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-timepicker-enableinputfield' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-timepicker-showresetbutton' => 'This is a help text for the Special:CreateForm page.',
-	
-	'semanticformsinputs-regexp-regexp' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-regexp-basetype' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-regexp-baseprefix' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-regexp-orchar' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-regexp-inverse' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-regexp-message' => 'This is a help text for the Special:CreateForm page.',
-
-	'semanticformsinputs-menuselect-structure' => 'This is a help text for the Special:CreateForm page.',
-	'semanticformsinputs-menuselect-enableinputfield' => 'This is a help text for the Special:CreateForm page.',
-);
-
-/** Message documentation (Message documentation)
- * @author EugeneZelenko
- * @author F.trott
  * @author Kghbln
  * @author The Evil IP address
  * @author Umherirrender
