@@ -44,7 +44,7 @@ $messages['en'] = array(
 
 	'semanticformsinputs-menuselect-structure' => 'The menu structure as an unordered list.',
 	'semanticformsinputs-menuselect-enableinputfield' => 'Should the user be able to fill the input field directly?',
-	);
+);
 
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
