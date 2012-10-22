@@ -953,7 +953,8 @@ $messages['sr-ec'] = array(
 	'semanticformsinputs-firstdayofweek' => '1',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'semanticformsinputs-dateformatlong' => 'd MM yy',
 	'semanticformsinputs-dateformatshort' => 'dd.mm.yy',
@@ -1166,4 +1167,3 @@ $messages['zh-hant'] = array(
 	'semanticformsinputs-menuselect-structure' => '作為無序列表的菜單結構。',
 	'semanticformsinputs-menuselect-enableinputfield' => '用戶是否應該能夠直接填寫輸入文本框？',
 );
-
