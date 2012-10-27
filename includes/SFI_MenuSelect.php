@@ -116,7 +116,7 @@ class SFIMenuSelect extends SFFormInput {
 				) ) );
 
 
-		$html .= "<div class='SFI_menuselect' id='span_{$this->mInputNumber}_tree'>";
+		$html .= "<span class='SFI_menuselect' id='span_{$this->mInputNumber}_tree'>";
 
 
 		// parse menu structure
@@ -130,7 +130,7 @@ class SFIMenuSelect extends SFFormInput {
 
 		$html .= str_replace( '<li', '<li class=\'ui-state-default\'', $structure );
 
-		$html .= "</div>";
+		$html .= "</span>";
 
 		// wrap in div
 		$html = '<div>' .$html . '</div>';
