@@ -284,6 +284,13 @@ $messages['dsb'] = array(
 	'semanticformsinputs-today' => 'Źinsa',
 );
 
+/** Greek (Ελληνικά)
+ * @author Protnet
+ */
+$messages['el'] = array(
+	'semanticformsinputs-desc' => 'Επιπρόσθετοι τύποι εισαγωγής δεδομένων για τις [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Σημασιολογικές Φόρμες]',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  * @author Danke7
