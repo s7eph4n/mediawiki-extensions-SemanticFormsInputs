@@ -353,6 +353,7 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Beluga
+ * @author Nedergard
  */
 $messages['fi'] = array(
 	'semanticformsinputs-wrongformat' => 'Väärä muoto.',
@@ -360,6 +361,10 @@ $messages['fi'] = array(
 	'semanticformsinputs-prev' => 'Edellinen',
 	'semanticformsinputs-next' => 'Seuraava',
 	'semanticformsinputs-today' => 'Tänään',
+	'semanticformsinputs-datepicker-weekstart' => 'Viikon ensimmäinen päivä (0 - sunnuntai, 1 - maanantai...).',
+	'semanticformsinputs-datepicker-firstdate' => 'Ensimmäinen päivämäärä, joka voidaan valita (muodossa vvvv/kk/pp).',
+	'semanticformsinputs-datepicker-lastdate' => 'Viimeinen päivämäärä, joka voidaan valita (muodossa vvvv/kk/pp).',
+	'semanticformsinputs-datepicker-disabledaysofweek' => 'Luettelo päivistä, joita ei voi valita (esim. viikonloppu: 6, 0).',
 );
 
 /** French (français)
