@@ -356,6 +356,7 @@ $messages['fa'] = array(
  * @author Nedergard
  */
 $messages['fi'] = array(
+	'semanticformsinputs-desc' => '[http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semanttisten lomakkeiden] lisäsyötetyypit',
 	'semanticformsinputs-wrongformat' => 'Väärä muoto.',
 	'semanticformsinputs-close' => 'Sulje',
 	'semanticformsinputs-prev' => 'Edellinen',
@@ -365,6 +366,15 @@ $messages['fi'] = array(
 	'semanticformsinputs-datepicker-firstdate' => 'Ensimmäinen päivämäärä, joka voidaan valita (muodossa vvvv/kk/pp).',
 	'semanticformsinputs-datepicker-lastdate' => 'Viimeinen päivämäärä, joka voidaan valita (muodossa vvvv/kk/pp).',
 	'semanticformsinputs-datepicker-disabledaysofweek' => 'Luettelo päivistä, joita ei voi valita (esim. viikonloppu: 6, 0).',
+	'semanticformsinputs-datepicker-highlightdaysofweek' => 'Luettelo päivistä, jotka korostetaan (esim. viikonloppu: 6, 0).',
+	'semanticformsinputs-datepicker-showweeknumbers' => 'Näytetäänkö viikkonumerot viikon vasemmalla puolella?',
+	'semanticformsinputs-datepicker-enableinputfield' => 'Saako käyttäjä syöttää tiedon kirjoittamalla vai vain päimääräpoimijan avulla?',
+	'semanticformsinputs-timepicker-mintime' => 'Ensimmäinen näytettävä aika. Muoto: hh:mm',
+	'semanticformsinputs-timepicker-maxtime' => 'Viimeinen näytettävä aika. Muoto: hh:mm',
+	'semanticformsinputs-timepicker-interval' => 'Väli minuutteina. Numerot 1 ja 60 välillä.',
+	'semanticformsinputs-timepicker-enableinputfield' => 'Saako käyttäjä syöttää tiedon kirjoittamalla vai vain päimääräpoimijan avulla?',
+	'semanticformsinputs-menuselect-structure' => 'Valikkorakenne numeroimattomana luettelona.',
+	'semanticformsinputs-menuselect-enableinputfield' => 'Saako käyttäjä kirjoittaa tiedon kenttään?',
 );
 
 /** French (français)
