@@ -369,10 +369,13 @@ $messages['fi'] = array(
 	'semanticformsinputs-datepicker-highlightdaysofweek' => 'Luettelo päivistä, jotka korostetaan (esim. viikonloppu: 6, 0).',
 	'semanticformsinputs-datepicker-showweeknumbers' => 'Näytetäänkö viikkonumerot viikon vasemmalla puolella?',
 	'semanticformsinputs-datepicker-enableinputfield' => 'Saako käyttäjä syöttää tiedon kirjoittamalla vai vain päimääräpoimijan avulla?',
+	'semanticformsinputs-datepicker-showresetbutton' => 'Näytetäänkö "Tyhjennä" -painike? Se on ainoa tapa tyhjentää kentät, jos käyttäjä ei saa kirjoittaa niihin.',
 	'semanticformsinputs-timepicker-mintime' => 'Ensimmäinen näytettävä aika. Muoto: hh:mm',
 	'semanticformsinputs-timepicker-maxtime' => 'Viimeinen näytettävä aika. Muoto: hh:mm',
 	'semanticformsinputs-timepicker-interval' => 'Väli minuutteina. Numerot 1 ja 60 välillä.',
 	'semanticformsinputs-timepicker-enableinputfield' => 'Saako käyttäjä syöttää tiedon kirjoittamalla vai vain päimääräpoimijan avulla?',
+	'semanticformsinputs-timepicker-showresetbutton' => 'Näytetäänkö "Tyhjennä" -painike? Se on ainoa tapa tyhjentää kentät, jos käyttäjä ei saa kirjoittaa niihin.',
+	'semanticformsinputs-regexp-baseprefix' => 'Perustyypin parametrien etuliite.',
 	'semanticformsinputs-menuselect-structure' => 'Valikkorakenne numeroimattomana luettelona.',
 	'semanticformsinputs-menuselect-enableinputfield' => 'Saako käyttäjä kirjoittaa tiedon kenttään?',
 );
