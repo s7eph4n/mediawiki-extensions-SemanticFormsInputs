@@ -289,6 +289,16 @@ $messages['dsb'] = array(
  */
 $messages['el'] = array(
 	'semanticformsinputs-desc' => 'Επιπρόσθετοι τύποι εισαγωγής δεδομένων για τις [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Σημασιολογικές Φόρμες]',
+	'semanticformsinputs-close' => 'Κλείσιμο',
+	'semanticformsinputs-prev' => 'Προηγούμενο',
+	'semanticformsinputs-next' => 'Επόμενο',
+	'semanticformsinputs-today' => 'Σήμερα',
+	'semanticformsinputs-malformedregexp' => 'Κανονική έκφραση με κακή μορφοποίηση ($1).',
+	'semanticformsinputs-datepicker-weekstart' => 'Η πρώτη ημέρα της εβδομάδας (0 - Κυριακή, 1 - Δευτέρα, ...).',
+	'semanticformsinputs-datepicker-showweeknumbers' => 'Θέλετε ο αριθμός εβδομάδας να φαίνεται αριστερά της εβδομάδας;',
+	'semanticformsinputs-timepicker-interval' => 'Χρονικό διάστημα μεταξύ λεπτών. Αριθμός μεταξύ 1 και 60.',
+	'semanticformsinputs-regexp-baseprefix' => 'Πρόθεμα για τις παραμέτρους του βασικού τύπου.',
+	'semanticformsinputs-menuselect-structure' => 'Η δομή του μενού ως αταξινόμητη λίστα.',
 );
 
 /** Spanish (español)
