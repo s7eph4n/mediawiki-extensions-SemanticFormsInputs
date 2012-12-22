@@ -867,7 +867,7 @@ $messages['nl'] = array(
 	'semanticformsinputs-regexp-regexp' => 'De reguliere expressie waarmee de invoer moet overeenkomen om geldig te zijn. Dit moet worden opgegeven met inbegrip van de schraptekens (slashes)! Standaard ingesteld op "/. * /", ofwel een willekeurige waarde.',
 	'semanticformsinputs-regexp-basetype' => 'Het basistype dat moet worden gebruikt. Dit kan elk invoertype zijn dat een HTML-formulierelement van het type "input" of "select" (bijvoorbeeld "text", "listbox" of "datepicker") of een andere reguliere expressie genereert. Standaard ingesteld op "text".',
 	'semanticformsinputs-regexp-baseprefix' => 'Voorvoegsel voor de parameters van het basistype.',
-	'semanticformsinputs-regexp-orchar' => 'Het OR-teken dat in de reguliere expressie wordt gebruikt in plaats van |. Standaard ingesteld op "!"',
+	'semanticformsinputs-regexp-orchar' => 'Het OR-teken ("of") dat in de reguliere expressie wordt gebruikt in plaats van |. Standaard ingesteld op "!"',
 	'semanticformsinputs-regexp-inverse' => 'Als dit is ingesteld moet de invoer NIET overeen komen met de reguliere expressie om geldig te zijn. Dat wil zeggen, de reguliere expressie is omgekeerd.',
 	'semanticformsinputs-regexp-message' => 'Het foutbericht dat moet worden weergegeven als het vergelijken mislukt. De standaardinstelling is "Verkeerde opmaak!" (of het equivalent in de geldende landinstelling).',
 	'semanticformsinputs-menuselect-structure' => 'De menustructuur als een ongeordende lijst.',
@@ -1127,12 +1127,19 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Base
  * @author Тест
  */
 $messages['uk'] = array(
+	'semanticformsinputs-desc' => 'Додаткові типи вводу для [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Семантичних форм]',
+	'semanticformsinputs-wrongformat' => 'Неправильний формат.',
 	'semanticformsinputs-close' => 'Закрити',
 	'semanticformsinputs-prev' => 'Попередня',
 	'semanticformsinputs-next' => 'Наступна',
+	'semanticformsinputs-today' => 'Сьогодні',
+	'semanticformsinputs-malformedregexp' => 'Неправильний регулярний вираз ($1).',
+	'semanticformsinputs-datepicker-showweeknumbers' => 'Показувати номери тижнів ліворуч від тижнів?',
+	'semanticformsinputs-menuselect-structure' => 'Структура меню у вигляді невпорядкованого списку.',
 );
 
 /** Vietnamese (Tiếng Việt)
