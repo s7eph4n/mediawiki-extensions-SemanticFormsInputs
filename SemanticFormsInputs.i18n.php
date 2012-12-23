@@ -157,10 +157,13 @@ $messages['be-tarask'] = array(
 
 /** Bulgarian (български)
  * @author DCLXVI
+ * @author පසිඳු කාවින්ද
  */
 $messages['bg'] = array(
 	'semanticformsinputs-wrongformat' => 'Грешен формат.',
 	'semanticformsinputs-close' => 'Затваряне',
+	'semanticformsinputs-prev' => 'Предишна',
+	'semanticformsinputs-next' => 'Следваща',
 	'semanticformsinputs-today' => 'Днес',
 );
 
