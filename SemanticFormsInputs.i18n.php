@@ -999,6 +999,10 @@ $messages['pt-br'] = array(
 $messages['roa-tara'] = array(
 	'semanticformsinputs-desc' => 'Tipe de input aggiundive pe le [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Module Semandece]',
 	'semanticformsinputs-wrongformat' => 'Formate sbagliate',
+	'semanticformsinputs-close' => 'Chiude',
+	'semanticformsinputs-prev' => 'Precedende',
+	'semanticformsinputs-next' => 'Prossime',
+	'semanticformsinputs-today' => 'Osce',
 );
 
 /** Russian (русский)
