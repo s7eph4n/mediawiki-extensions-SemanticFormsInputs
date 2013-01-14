@@ -50,6 +50,7 @@ $messages['en'] = array(
  * @author EugeneZelenko
  * @author F.trott
  * @author Kghbln
+ * @author Shirayuki
  * @author The Evil IP address
  * @author Umherirrender
  */
@@ -58,12 +59,10 @@ $messages['qqq'] = array(
 	'semanticformsinputs-close' => '{{Identical|Close}}',
 	'semanticformsinputs-prev' => '{{Identical|Previous}}',
 	'semanticformsinputs-next' => '{{Identical|Next}}',
-	'semanticformsinputs-dateformatlong' => "{{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}
-
-{{doc-important|This is an ''optional'' message. Do not translate it, if it would remain unchanged in your language. }}",
-	'semanticformsinputs-dateformatshort' => "{{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}
-
-{{doc-important|This is an ''optional'' message. Do not translate it, if it would remain unchanged in your language. }}",
+	'semanticformsinputs-dateformatlong' => '{{Optional}}
+{{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}',
+	'semanticformsinputs-dateformatshort' => '{{Optional}}
+{{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}',
 	'semanticformsinputs-firstdayofweek' => '{{optional}}
 0 - sunday, 1 - monday...',
 	'semanticformsinputs-malformedregexp' => 'An error message.',
