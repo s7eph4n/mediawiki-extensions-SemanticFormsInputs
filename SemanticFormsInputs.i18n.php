@@ -704,6 +704,17 @@ $messages['km'] = array(
 	'semanticformsinputs-today' => 'ថ្ងៃនេះ',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'semanticformsinputs-wrongformat' => '잘못된 형식입니다.',
+	'semanticformsinputs-close' => '닫기',
+	'semanticformsinputs-prev' => '이전',
+	'semanticformsinputs-next' => '다음',
+	'semanticformsinputs-today' => '오늘',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
