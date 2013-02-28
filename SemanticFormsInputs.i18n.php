@@ -55,7 +55,7 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'semanticformsinputs-desc' => '{{desc}}',
+	'semanticformsinputs-desc' => '{{desc|name=Semantic Forms Inputs|url=http://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs}}',
 	'semanticformsinputs-close' => '{{Identical|Close}}',
 	'semanticformsinputs-prev' => '{{Identical|Previous}}',
 	'semanticformsinputs-next' => '{{Identical|Next}}',
