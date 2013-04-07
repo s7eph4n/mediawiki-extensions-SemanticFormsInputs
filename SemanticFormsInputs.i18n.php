@@ -386,6 +386,7 @@ $messages['fa'] = array(
 /** Finnish (suomi)
  * @author Beluga
  * @author Nedergard
+ * @author Silvonen
  */
 $messages['fi'] = array(
 	'semanticformsinputs-desc' => '[http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semanttisten lomakkeiden] lisäsyötetyypit',
@@ -412,6 +413,7 @@ $messages['fi'] = array(
 	'semanticformsinputs-timepicker-enableinputfield' => 'Saako käyttäjä syöttää tiedon kirjoittamalla vai vain päimääräpoimijan avulla?',
 	'semanticformsinputs-timepicker-showresetbutton' => 'Näytetäänkö "Tyhjennä" -painike? Se on ainoa tapa tyhjentää kentät, jos käyttäjä ei saa kirjoittaa niihin.',
 	'semanticformsinputs-regexp-baseprefix' => 'Perustyypin parametrien etuliite.',
+	'semanticformsinputs-regexp-orchar' => 'Säännöllisessä lausekkeessa |-merkin sijasta käytettävä TAI-merkki. Oletuksena ”!”.',
 	'semanticformsinputs-menuselect-structure' => 'Valikkorakenne numeroimattomana luettelona.',
 	'semanticformsinputs-menuselect-enableinputfield' => 'Saako käyttäjä kirjoittaa tiedon kenttään?',
 );
