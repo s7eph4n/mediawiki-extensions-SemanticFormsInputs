@@ -56,9 +56,21 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'semanticformsinputs-desc' => '{{desc|name=Semantic Forms Inputs|url=http://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs}}',
-	'semanticformsinputs-close' => '{{Identical|Close}}',
-	'semanticformsinputs-prev' => '{{Identical|Previous}}',
-	'semanticformsinputs-next' => '{{Identical|Next}}',
+	'semanticformsinputs-wrongformat' => 'Used as error message.',
+	'semanticformsinputs-close' => 'Used as label for the "Close" button in the Date picker.
+{{Identical|Close}}',
+	'semanticformsinputs-prev' => 'Used as label for the "Previous month" button in the Date picker.
+
+See also:
+* {{msg-mw|Semanticformsinputs-next}}
+{{Identical|Previous}}',
+	'semanticformsinputs-next' => 'Used as label for the "Next month" button in the Date picker.
+
+See also:
+* {{msg-mw|Semanticformsinputs-prev}}
+{{Identical|Next}}',
+	'semanticformsinputs-today' => 'Used as label for the "Today" button in the Date picker.
+{{Identical|Today}}',
 	'semanticformsinputs-dateformatlong' => '{{Optional}}
 {{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}',
 	'semanticformsinputs-dateformatshort' => '{{Optional}}
