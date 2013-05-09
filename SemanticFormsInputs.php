@@ -10,7 +10,7 @@
  * @author Sanyam Goyal
  * @author Yury Katkov
  *
- * @version 0.6 alpha
+ * @version 0.7
  */
 
 /**
@@ -36,7 +36,7 @@ if ( version_compare( SF_VERSION, '2.4.2', 'lt' ) ) {
 	die( '<b>Error:</b> This version of <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs">Semantic Forms Inputs</a> is only compatible with Semantic Forms 2.4.1 or above. You need to upgrade <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms</a> first.' );
 }
 
-define( 'SFI_VERSION', '0.7 alpha' );
+define( 'SFI_VERSION', '0.7' );
 
 // create and initialize settings
 $sfigSettings = new SFISettings();
