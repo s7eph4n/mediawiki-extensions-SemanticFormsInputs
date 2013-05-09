@@ -220,10 +220,11 @@ window.SFI_MS_init = function( inputID, params ) {
 		.mousedown( function() {
 
 			var content = jQuery( this ).children( "table" ).find( ".cont" );
+			var text = jQuery.trim( content.text() );
 
 			// set visible value and leave input
 			inputShow
-			.attr( "value", content.text() )
+			.attr( "value", text )
 			.blur();
 
 			// set hidden value that gets sent back to the server
@@ -238,7 +239,7 @@ window.SFI_MS_init = function( inputID, params ) {
 			} else {
 
 				// just use text of list item
-				jQuery( "#" + inputID ).attr( "value", content.text() );
+				jQuery( "#" + inputID ).attr( "value", text );
 
 			}
 			return false;
