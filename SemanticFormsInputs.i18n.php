@@ -727,6 +727,8 @@ $messages['ko'] = array(
 	'semanticformsinputs-prev' => '이전',
 	'semanticformsinputs-next' => '다음',
 	'semanticformsinputs-today' => '오늘',
+	'semanticformsinputs-dateformatlong' => 'yy년 m월 d일',
+	'semanticformsinputs-dateformatshort' => 'yy/mm/dd',
 );
 
 /** Colognian (Ripoarisch)
