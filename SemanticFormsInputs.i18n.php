@@ -826,7 +826,7 @@ $messages['ms'] = array(
 	'semanticformsinputs-next' => 'Berikutnya',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Event
  * @author Nghtwlkr
  */
