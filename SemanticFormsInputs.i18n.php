@@ -501,6 +501,7 @@ $messages['gl'] = array(
 	'semanticformsinputs-prev' => 'Anterior',
 	'semanticformsinputs-next' => 'Seguinte',
 	'semanticformsinputs-today' => 'Hoxe',
+	'semanticformsinputs-firstdayofweek' => '1',
 	'semanticformsinputs-malformedregexp' => 'Expresión regular formada incorrectamente ($1).',
 	'semanticformsinputs-datepicker-dateformat' => 'A cadea de formato de data. Olle a [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentación en liña] para obter máis información.',
 	'semanticformsinputs-datepicker-weekstart' => 'O primeiro día da semana (0 = domingo, 1 = luns...).',
