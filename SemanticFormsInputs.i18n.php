@@ -240,6 +240,7 @@ $messages['cs'] = array(
 
 /** German (Deutsch)
  * @author F.trott
+ * @author Geitost
  * @author Kghbln
  */
 $messages['de'] = array(
@@ -253,7 +254,7 @@ $messages['de'] = array(
 	'semanticformsinputs-dateformatshort' => 'dd.mm.yy',
 	'semanticformsinputs-firstdayofweek' => '1',
 	'semanticformsinputs-malformedregexp' => 'Fehlerhafter regulärer Ausdruck ($1)',
-	'semanticformsinputs-datepicker-dateformat' => 'Die Zeichenfolge des Datumsformats. Siehe hierzu die [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters Online-Dokumentation] für weitere Informationen.',
+	'semanticformsinputs-datepicker-dateformat' => 'Die Zeichenfolge des Datumsformats. Weitere Informationen sind in der [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters Online-Dokumentation] zu finden.',
 	'semanticformsinputs-datepicker-weekstart' => 'Der erste Tag der Woche (0 - Sonntag, 1 - Montag, usw.)',
 	'semanticformsinputs-datepicker-firstdate' => 'Das erste auswählbare Datum (im Format JJJJ/MM/TT).',
 	'semanticformsinputs-datepicker-lastdate' => 'Das letzte auswählbare Datum (im Format JJJJ/MM/TT).',
