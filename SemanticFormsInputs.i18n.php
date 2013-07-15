@@ -1038,6 +1038,9 @@ $messages['roa-tara'] = array(
 	'semanticformsinputs-prev' => 'Precedende',
 	'semanticformsinputs-next' => 'Prossime',
 	'semanticformsinputs-today' => 'Osce',
+	'semanticformsinputs-malformedregexp' => 'Espressione regolare male formate ($1).',
+	'semanticformsinputs-timepicker-interval' => "Indervalle 'mbrà minute. Numere 'mbrà 1 e 60.",
+	'semanticformsinputs-regexp-baseprefix' => "Prefisse pe le parametre d'u tipe de base.",
 );
 
 /** Russian (русский)
