@@ -238,6 +238,13 @@ $messages['cs'] = array(
 	'semanticformsinputs-today' => 'Dnes',
 );
 
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'semanticformsinputs-close' => 'ꙁакрꙑи',
+);
+
 /** German (Deutsch)
  * @author F.trott
  * @author Geitost
