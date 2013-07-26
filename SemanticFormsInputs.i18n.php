@@ -227,6 +227,13 @@ $messages['ca'] = array(
 	'semanticformsinputs-today' => 'Avui',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'semanticformsinputs-close' => 'ДӀачӀагӀа',
+);
+
 /** Czech (česky)
  * @author Reaperman
  */
