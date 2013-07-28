@@ -1013,10 +1013,11 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
 	'semanticformsinputs-desc' => 'Tipos de entrada adicionais para [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Formulários Semânticos]',
-	'semanticformsinputs-wrongformat' => 'Formato incorrecto.',
+	'semanticformsinputs-wrongformat' => 'Formato incorreto.',
 	'semanticformsinputs-close' => 'Fechar',
 	'semanticformsinputs-prev' => 'Anterior',
 	'semanticformsinputs-next' => 'Seguinte',
