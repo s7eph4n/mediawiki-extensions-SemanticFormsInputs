@@ -143,6 +143,16 @@ $messages['ast'] = array(
 	'semanticformsinputs-prev' => 'Anterior',
 	'semanticformsinputs-next' => 'Siguiente',
 	'semanticformsinputs-today' => 'Güei',
+	'semanticformsinputs-malformedregexp' => 'Espresión regular mal formada ($1).',
+	'semanticformsinputs-datepicker-dateformat' => 'La cadena de formatu de data. Vea la [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentación en llinia] pa más información.',
+	'semanticformsinputs-datepicker-weekstart' => 'El primer día de la selmana (0 - domingu, 1 - llunes,...).',
+	'semanticformsinputs-datepicker-firstdate' => 'La primera data que pue escoyese (en formatu aaaa/mm/dd).',
+	'semanticformsinputs-datepicker-lastdate' => 'La cabera data que pue escoyese (en formatu aaaa/mm/dd).',
+	'semanticformsinputs-datepicker-disabledaysofweek' => 'La llista de díes que nun puen escoyese (p. ex., fin de selmana: 6, 0).',
+	'semanticformsinputs-datepicker-highlightdaysofweek' => "La llista de díes qu'apaecerán destacaos (p. ex., fin de selmana: 6, 0).",
+	'semanticformsinputs-datepicker-disabledates' => 'La llista, separada por comes, de dates o rangos de data desactivaos (datas en formatu aaaa/mm/dd, rangos en formatu aaaa/mm/dd-aaaa/mm/dd).',
+	'semanticformsinputs-datepicker-highlightdates' => "La llista, separada por comes, de dates o rangos de data qu'apaecerán destacaos (datas en formatu aaaa/mm/dd, rangos en formatu aaaa/mm/dd-aaaa/mm/dd).",
+	'semanticformsinputs-datepicker-showweeknumbers' => "¿Tienen d'apaecer a la izquierda los númberos de selmana?",
 );
 
 /** Azerbaijani (azərbaycanca)
