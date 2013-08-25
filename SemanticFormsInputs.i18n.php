@@ -77,7 +77,12 @@ See also:
 {{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}',
 	'semanticformsinputs-firstdayofweek' => '{{optional}}
 0 - sunday, 1 - monday...',
-	'semanticformsinputs-malformedregexp' => 'An error message.',
+	'semanticformsinputs-malformedregexp' => 'Unused at this time.
+
+An error message.
+
+Parameters:
+* $1 - regular expression',
 	'semanticformsinputs-datepicker-dateformat' => 'This is a help text for the [[Special:CreateForm]] page.',
 	'semanticformsinputs-datepicker-weekstart' => 'This is a help text for the [[Special:CreateForm]] page.',
 	'semanticformsinputs-datepicker-firstdate' => 'This is a help text for the [[Special:CreateForm]] page.',
