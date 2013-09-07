@@ -934,6 +934,25 @@ $messages['nl'] = array(
 	'semanticformsinputs-menuselect-enableinputfield' => 'Moet de gebruiker het invoerveld rechtstreeks kunnen invullen?',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'semanticformsinputs-desc' => "Tipes d'entradas adicionalas per [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Formularis semantics]",
+	'semanticformsinputs-wrongformat' => 'Format erronèu.',
+	'semanticformsinputs-close' => 'Tampar',
+	'semanticformsinputs-prev' => 'Precedent',
+	'semanticformsinputs-next' => 'Seguent',
+	'semanticformsinputs-today' => 'Uèi',
+	'semanticformsinputs-malformedregexp' => 'Expression regulara mal formada ($1).',
+	'semanticformsinputs-datepicker-dateformat' => "La cadena de format de data. Vejatz la [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentacion en linha] per mai d'informacion.",
+	'semanticformsinputs-datepicker-weekstart' => 'Lo primièr jorn de la setmana (0 - dimenge, 1 - diluns, ...).',
+	'semanticformsinputs-datepicker-firstdate' => 'La primièra data que pòt èsser causida (al format aaaa/mm/jj).',
+	'semanticformsinputs-datepicker-lastdate' => 'La darrièra data que pòt èsser causida (al format aaaa/mm/jj).',
+	'semanticformsinputs-datepicker-disabledaysofweek' => 'Una lista de jorns que pòdon pas èsser seleccionats (per ex. week-end: 6, 0).',
+	'semanticformsinputs-datepicker-highlightdaysofweek' => 'Una lista de jorns que devon aparéisser en susbrilhança (per ex. week-end: 6, 0).',
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
