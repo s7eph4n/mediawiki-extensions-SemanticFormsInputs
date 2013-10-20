@@ -240,6 +240,8 @@ $messages['ca'] = array(
 	'semanticformsinputs-prev' => 'Anterior',
 	'semanticformsinputs-next' => 'Següent',
 	'semanticformsinputs-today' => 'Avui',
+	'semanticformsinputs-menuselect-structure' => "L'estructura de menú com una llista no ordenada.",
+	'semanticformsinputs-menuselect-enableinputfield' => "L'usuari hauria de poder emplenar el camp d'entrada directament?",
 );
 
 /** Chechen (нохчийн)
