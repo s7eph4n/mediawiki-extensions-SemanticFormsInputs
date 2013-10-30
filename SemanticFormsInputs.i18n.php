@@ -158,6 +158,21 @@ $messages['ast'] = array(
 	'semanticformsinputs-datepicker-disabledates' => 'La llista, separada por comes, de dates o rangos de data desactivaos (datas en formatu aaaa/mm/dd, rangos en formatu aaaa/mm/dd-aaaa/mm/dd).',
 	'semanticformsinputs-datepicker-highlightdates' => "La llista, separada por comes, de dates o rangos de data qu'apaecerán destacaos (datas en formatu aaaa/mm/dd, rangos en formatu aaaa/mm/dd-aaaa/mm/dd).",
 	'semanticformsinputs-datepicker-showweeknumbers' => "¿Tienen d'apaecer a la izquierda los númberos de selmana?",
+	'semanticformsinputs-datepicker-enableinputfield' => "¿Tendría de poder l'usuariu rellenar el campu d'entrada direutamente o sólo col selector de datos?",
+	'semanticformsinputs-datepicker-showresetbutton' => "¿Tien d'apaecer un botón de reestablecimientu? Esta ye la única manera que tien l'usuariu de llimpiar el campu d'entrada si tien la entrada direuta desactivada.",
+	'semanticformsinputs-timepicker-mintime' => 'La primera hora a amosar. Formatu: hh:mm',
+	'semanticformsinputs-timepicker-maxtime' => 'La última hora a amosar. Formatu: hh:mm',
+	'semanticformsinputs-timepicker-interval' => 'Intervalu ente los minutos. Númberu ente 1 y 60.',
+	'semanticformsinputs-timepicker-enableinputfield' => "¿Tendría de poder l'usuariu rellenar el campu d'entrada direutamente o sólo col selector de datos?",
+	'semanticformsinputs-timepicker-showresetbutton' => "¿Tien d'apaecer un botón de reestablecimientu? Esta ye la única manera que tien l'usuariu de llimpiar el campu d'entrada si tien la entrada direuta desactivada.",
+	'semanticformsinputs-regexp-regexp' => 'La espresión regular que tien de casar cola entrada pa ser válida. ¡Tien de dase incluyendo les barres inclinaes! De mou predetermináu "/.*/", esto ye, cualquier valor.',
+	'semanticformsinputs-regexp-basetype' => 'El tipu de base a usar. Pue ser cualquier tipu d\'entrada que xenere un elementu de formulariu HTML de tipu "input" o "select" (p. ex., testu, cuadru de llista, selector de datos) o otra espresión regular. De mou predetermináu ye "testu".',
+	'semanticformsinputs-regexp-baseprefix' => 'Prefixu pa los parámetros del tipu de base.',
+	'semanticformsinputs-regexp-orchar' => 'El carácter "O" a usar na espresión regular en llugar de "|". De mou predetermináu, "!"',
+	'semanticformsinputs-regexp-inverse' => 'Si se define, la entrada NUN tien de casar cola espresión regular pa ser válida. Esto ye, invierte la espresión regular.',
+	'semanticformsinputs-regexp-message' => 'El mensaxe d\'error qu\'apaecerá si falla la coincidencia. De mou predetermináu "¡Formatu incorreutu!" (o un equivalente na llingua llocal)',
+	'semanticformsinputs-menuselect-structure' => 'La estructura del menú como llista ensin ordenar.',
+	'semanticformsinputs-menuselect-enableinputfield' => "¿Tendría de poder l'usuariu rellenar el campu d'entrada direutamente?",
 );
 
 /** Azerbaijani (azərbaycanca)
