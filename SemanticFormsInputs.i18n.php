@@ -800,6 +800,7 @@ $messages['ku-latn'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'semanticformsinputs-desc' => "Zousätzlech Manéieren fir d'Eraginn fir [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Formulairen]",
@@ -813,7 +814,7 @@ $messages['lb'] = array(
 	'semanticformsinputs-datepicker-lastdate' => 'De leschten Datum deen erausgesicht ka ginn (am Format JJJJ/MM/DD)',
 	'semanticformsinputs-timepicker-mintime' => 'Déi fréisten Zäit déi gewise gëtt. Format: hh:mm',
 	'semanticformsinputs-timepicker-maxtime' => 'Déi spéitsten Zäit déi gewise gëtt: Format: hh:mm',
-	'semanticformsinputs-timepicker-interval' => 'Intervall tëschent de Minutten. Zuel tëschent 1 a 60.',
+	'semanticformsinputs-timepicker-interval' => 'Intervalle tëscht de Minutten. Zuel tëscht 1 a 60.',
 	'semanticformsinputs-menuselect-structure' => "D'Struktur vum Menü als net zortéiert Lëscht.",
 	'semanticformsinputs-menuselect-enableinputfield' => "Soll et dem Benotzer méiglech si fir d'Feld direkt auszefëllen?",
 );
