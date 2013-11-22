@@ -93,7 +93,7 @@ class SFIMenuSelect extends SFFormInput {
 	 */
 	public function getHtmlText(){
 
-		global $wgUser, $wgTitle, $wgParser;
+		global $wgUser, $wgParser;
 		global $sfigSettings;
 
 		// first: set up HTML attributes
