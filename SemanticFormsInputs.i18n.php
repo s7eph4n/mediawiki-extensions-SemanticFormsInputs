@@ -266,7 +266,7 @@ $messages['ce'] = array(
 	'semanticformsinputs-close' => 'ДӀачӀагӀа',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Reaperman
  */
 $messages['cs'] = array(
@@ -277,7 +277,7 @@ $messages['cs'] = array(
 	'semanticformsinputs-today' => 'Dnes',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
