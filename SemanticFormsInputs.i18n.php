@@ -767,6 +767,7 @@ $messages['km'] = array(
 );
 
 /** Korean (한국어)
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
@@ -777,6 +778,11 @@ $messages['ko'] = array(
 	'semanticformsinputs-today' => '오늘',
 	'semanticformsinputs-dateformatlong' => 'yy년 m월 d일',
 	'semanticformsinputs-dateformatshort' => 'yy/mm/dd',
+	'semanticformsinputs-malformedregexp' => '잘못된 정규식($1)',
+	'semanticformsinputs-timepicker-mintime' => '표시할 이전의 시간. 형식: hh:mm',
+	'semanticformsinputs-timepicker-maxtime' => '표시할 최근의 시간. 형식: hh:mm',
+	'semanticformsinputs-regexp-baseprefix' => '기본 유형의 매개변수에 대한 접두어',
+	'semanticformsinputs-menuselect-structure' => '순서 없는 목록의 메뉴 구조',
 );
 
 /** Colognian (Ripoarisch)
