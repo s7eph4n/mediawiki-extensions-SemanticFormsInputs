@@ -771,6 +771,7 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'semanticformsinputs-desc' => '[http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]에 대한 추가 입력 형태',
 	'semanticformsinputs-wrongformat' => '잘못된 형식입니다.',
 	'semanticformsinputs-close' => '닫기',
 	'semanticformsinputs-prev' => '이전',
@@ -779,11 +780,14 @@ $messages['ko'] = array(
 	'semanticformsinputs-dateformatlong' => 'yy년 m월 d일',
 	'semanticformsinputs-dateformatshort' => 'yy/mm/dd',
 	'semanticformsinputs-malformedregexp' => '잘못된 정규식($1)',
+	'semanticformsinputs-datepicker-dateformat' => '날짜 형식 문자열. 더 많은 정보에 대한 [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters 온라인 문서]를 참조하세요.',
 	'semanticformsinputs-datepicker-weekstart' => '주의 첫 요일(0 - 일요일, 1 - 월요일, ...).',
 	'semanticformsinputs-datepicker-firstdate' => '선택할 수 있는 첫 날짜(yyyy/mm/dd 형식으로)',
 	'semanticformsinputs-datepicker-lastdate' => '선택할 수 있는 마지막 날짜(yyyy/mm/dd 형식으로)',
 	'semanticformsinputs-datepicker-disabledaysofweek' => '선택할 수 있는 날의 목록(예시 - 주말: 6, 0).',
 	'semanticformsinputs-datepicker-highlightdaysofweek' => '강조되어 표시될 날의 목록(예시 - 주말: 6, 0).',
+	'semanticformsinputs-datepicker-disabledates' => '비활성화된 dates/date 범위의 쉼표로 구분된 목록(날짜는 yyyy/mm/dd 형식으로, 범위는 yyyy/mm/dd-yyyy/mm/dd)',
+	'semanticformsinputs-datepicker-highlightdates' => '강조되어 표시되고 비활성화된 dates/date 범위의 쉼표로 구분된 목록(날짜는 yyyy/mm/dd 형식으로, 범위는 yyyy/mm/dd-yyyy/mm/dd)',
 	'semanticformsinputs-datepicker-showweeknumbers' => '주 번호가 주의 왼쪽에 보여야 합니까?',
 	'semanticformsinputs-datepicker-enableinputfield' => '사용자가 입력 필드를 직접 채우거나 날짜 선택기만을 이용할 수 있어야 합니까?',
 	'semanticformsinputs-datepicker-showresetbutton' => '재설정 버튼이 보여야 합니까? 직접 입력이 비활성화되어 있으면 사용자가 입력 필드를 지웁니다.',
