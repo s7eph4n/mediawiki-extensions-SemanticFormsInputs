@@ -433,9 +433,11 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'semanticformsinputs-wrongformat' => 'فرمت اشتباه.',
 	'semanticformsinputs-close' => 'بستن',
 	'semanticformsinputs-prev' => 'قبلی',
 	'semanticformsinputs-next' => 'بعدی',
