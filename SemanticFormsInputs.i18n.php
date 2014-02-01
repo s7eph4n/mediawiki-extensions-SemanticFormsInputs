@@ -442,6 +442,7 @@ $messages['fa'] = array(
 	'semanticformsinputs-prev' => 'قبلی',
 	'semanticformsinputs-next' => 'بعدی',
 	'semanticformsinputs-today' => 'امروز',
+	'semanticformsinputs-timepicker-maxtime' => 'آخرین زمان برای نمایش. فرمت: hh:mm',
 );
 
 /** Finnish (suomi)
