@@ -1,0 +1,10 @@
+/**
+ * Style sheet for the input type datecheck.
+ *
+ * @author Simon Bachenberg
+ */
+
+.form-error {
+	display: block;
+	color:   #ff0000;
+}

@@ -36,7 +36,7 @@ if ( version_compare( SF_VERSION, '2.4.2', 'lt' ) ) {
 	die( '<b>Error:</b> This version of <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs">Semantic Forms Inputs</a> is only compatible with Semantic Forms 2.4.1 or above. You need to upgrade <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms</a> first.' );
 }
 
-define( 'SFI_VERSION', '0.7' );
+define( 'SFI_VERSION', '0.8 alpha' );
 
 // create and initialize settings
 $sfigSettings = new SFISettings();
@@ -66,6 +66,7 @@ $wgAutoloadClasses['SFIDateTimePicker'] = $dir . '/includes/SFI_DateTimePicker.p
 $wgAutoloadClasses['SFIMenuSelect'] = $dir . '/includes/SFI_MenuSelect.php';
 $wgAutoloadClasses['SFIRegExp'] = $dir . '/includes/SFI_RegExp.php';
 $wgAutoloadClasses['SFITwoListBoxes'] = $dir . '/includes/SFI_TwoListBoxes.php';
+$wgAutoloadClasses['SFIDateCheck'] = $dir . '/includes/SFI_DateCheck.php';
 
 $wgResourceModules['ext.semanticformsinputs.datepicker'] = array(
 	'localBasePath' => $dir,
@@ -128,6 +129,20 @@ $wgResourceModules['ext.semanticformsinputs.twolistboxes'] = array(
 	'dependencies' => 'ext.semanticforms.main'
 );
 
+
+$wgResourceModules[ 'ext.semanticformsinputs.datecheck' ] = array(
+	'localBasePath' => $dir,
+	'remoteExtPath' => 'SemanticFormsInputs',
+	'scripts' => array(
+		'libs/jquery.form-validator.js',
+		'libs/datecheck.js',
+	),
+	'styles' => 'skins/SFI_DateCheck.css',
+	'dependencies' => array(
+		'ext.semanticforms.main'
+	),
+);
+
 /**
  * Class to encapsulate all settings
  */
@@ -162,7 +177,8 @@ function wfSFISetup() {
 	$sfgFormPrinter->registerInputType( 'SFIDateTimePicker' );
 	$sfgFormPrinter->registerInputType( 'SFIMenuSelect' );
 	$sfgFormPrinter->registerInputType( 'SFIRegExp' );
-    $sfgFormPrinter->registerInputType( 'SFITwoListBoxes' );
+	$sfgFormPrinter->registerInputType( 'SFITwoListBoxes' );
+	$sfgFormPrinter->registerInputType( 'SFIDateCheck' );
 
 	return true;
 }
