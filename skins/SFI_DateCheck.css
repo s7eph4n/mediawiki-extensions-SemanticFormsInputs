@@ -4,7 +4,10 @@
  * @author Simon Bachenberg
  */
 
+.has-error input.error {
+	font-size: inherit;
+}
+
 .form-error {
-	display: block;
 	color:   #ff0000;
 }
