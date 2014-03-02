@@ -437,13 +437,37 @@ $messages['et'] = array(
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'semanticformsinputs-desc' => 'انواع ورودی اضافه برای [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]',
 	'semanticformsinputs-wrongformat' => 'فرمت اشتباه.',
 	'semanticformsinputs-close' => 'بستن',
 	'semanticformsinputs-prev' => 'قبلی',
 	'semanticformsinputs-next' => 'بعدی',
 	'semanticformsinputs-today' => 'امروز',
+	'semanticformsinputs-malformedregexp' => 'عبارت ناقص ($1).',
+	'semanticformsinputs-datepicker-dateformat' => 'دسته فرمت تاریخ. برای اطلاعات بیشتر [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentation] را مشاهده کنید.',
+	'semanticformsinputs-datepicker-weekstart' => 'اولین روز هفته (۰ - یکشنبه، ۱ - دوشنبه،...).',
+	'semanticformsinputs-datepicker-firstdate' => 'اول تاریخی که می‌تواند انتخاب شود (در فرمت ‌دی‌دی/ام‌ام/وای‌وای‌وای‌وای).',
+	'semanticformsinputs-datepicker-lastdate' => 'آخرین تاریخی که می‌تواند انتخاب شود (در فرمت دی‌دی/ام‌ام/وای‌وای‌وای‌وای).',
+	'semanticformsinputs-datepicker-disabledaysofweek' => 'فهرست روزهایی که نمی تواند انتخاب شود (مثال آخر هفته: ۶، ۰).',
+	'semanticformsinputs-datepicker-highlightdaysofweek' => 'فهرست روزهایی که برجسته ظاهر می‌شود (مثال آخر هفته: ۶، ۰).',
+	'semanticformsinputs-datepicker-disabledates' => 'فهرست محدوده های غیرفعال شده تاریخ‌ها/تاریخ جداشده با کاما (تاریخ‌ها در فرمت وای‌وای‌وای‌وای/‌ام‌ام/دی‌دی، محدوده‌اه در فرمت وای‌وای‌وای‌وای/ام‌ام/دی‌دی-وای‌وای‌وای‌وای/ام ام/دی‌دی).',
+	'semanticformsinputs-datepicker-highlightdates' => 'فهرست محدوده‌های تاریخ‌ها/تاریخ جداشده با کاما که برجسته ظاهر می‌شود (تاریخ‌ها در فرمت وای‌وای‌وای‌وای/‌ام‌ام/دی‌دی، محدوده‌اه در فرمت وای‌وای‌وای‌وای/ام‌ام/دی‌دی-وای‌وای‌وای‌وای/ام ام/دی‌دی).',
+	'semanticformsinputs-datepicker-showweeknumbers' => 'آیا تعداد هفته باید سمت چپ هفته نشان داده شود؟',
+	'semanticformsinputs-datepicker-enableinputfield' => 'آیا کاربر قادر به پرکردن زمینه ورودی به طور مستقیم است یا تنها از طریق انتخاب کننده تاریخ قادر است؟',
+	'semanticformsinputs-datepicker-showresetbutton' => 'آیا باید دکمه تنظیم مجدد نشان داده شود؟ اگر برای ورودی مستقیم غیرفعال است،این تنها راه برای کاربر برای پاک کردن زمینه ورودی است .',
+	'semanticformsinputs-timepicker-mintime' => 'اولین زمان برای نمایش. فرمت: اچ‌اچ:ام‌ام',
 	'semanticformsinputs-timepicker-maxtime' => 'آخرین زمان برای نمایش. فرمت: hh:mm',
+	'semanticformsinputs-timepicker-interval' => 'فاصله بین دقیقه‌ها. عدد بین ۱ و۶۰.',
+	'semanticformsinputs-timepicker-enableinputfield' => 'آیا کاربر قادر به پرکردن زمینه ورودی به طور مستقیم است یا تنها از طریق انتخاب کننده تاریخ قادر است؟',
+	'semanticformsinputs-timepicker-showresetbutton' => 'آیا باید دکمه تنظیم مجدد نشان داده شود؟ اگر برای ورودی مستقیم غیرفعال است،این تنها راه برای کاربر برای پاک کردن زمینه ورودی است .',
+	'semanticformsinputs-regexp-regexp' => 'عبارت منظم ورودی باید برای معتبر شدن مطابقت داشته باشد. این باید شامل اسلش‌هایی باشدکه داده می‌شود! پیش‌فرض به"/. * /"، یعنی هر مقدار.',
+	'semanticformsinputs-regexp-basetype' => 'نوع پایه مورد استفاده قرار گیرد. ممکن است هر نوع ورودی که یک عنصر نوع ورودی فرم اچ‌تی‌ام‌ال تولید شود یا (برای مثال text, جعبه فهرست, انتخاب‌کننده تاریخ) را  انتخاب کنید یا رگ‌ای‌ایکس‌پی دیگری را انتخاب کنید. پیش‌فرض برای "متن".',
+	'semanticformsinputs-regexp-baseprefix' => 'پیشوند برای پارامترهای نوع پایه.',
+	'semanticformsinputs-regexp-orchar' => 'یا خصیصه اُ آر  در عبارت منظم به جای | مورد استفاده قرار می‌گیرد. پیش فرض به "!"',
+	'semanticformsinputs-regexp-inverse' => 'اگر تنظیم شود، ورودی نباید یا با عبارت منظمی که معتبر می‌شود مطابقت داشته باشد. یعنی عبارت منظم وارونه است.',
+	'semanticformsinputs-regexp-message' => 'پیام خطا نمایش داده می‌شود اگر نتواند مطابقت داشته باشد. پیش‌فرض‌ها برای "فرمت غلط!" (یا معادل آن در مکان فعلی)',
 	'semanticformsinputs-menuselect-structure' => 'ساختار منو به عنوان یک فهرست نا‌مرتب.',
+	'semanticformsinputs-menuselect-enableinputfield' => 'آیا کاربر باید قادر به پر کردن زمینه ورودی به طور مستقیم باشد؟',
 );
 
 /** Finnish (suomi)
@@ -594,6 +618,7 @@ $messages['gsw'] = array(
 
 /** Hebrew (עברית)
  * @author YaronSh
+ * @author ערן
  */
 $messages['he'] = array(
 	'semanticformsinputs-desc' => 'סוגי קלט נוספים עבור [http://www.mediawiki.org/wiki/Extension:Semantic_Forms טפסים סמנטיים]',
@@ -602,6 +627,14 @@ $messages['he'] = array(
 	'semanticformsinputs-prev' => 'הקודם',
 	'semanticformsinputs-next' => 'הבא',
 	'semanticformsinputs-today' => 'היום',
+	'semanticformsinputs-datepicker-weekstart' => 'מספר היום בשבוע (0 - ראשון, 1 - שני, ...).',
+	'semanticformsinputs-datepicker-firstdate' => 'התאריך הראשון שניתן לבחירה (בפורמט yyyy/mm/dd).',
+	'semanticformsinputs-datepicker-lastdate' => 'התאריך האחרון שניתן לבחירה (בפורמט yyyy/mm/dd).',
+	'semanticformsinputs-datepicker-disabledaysofweek' => 'רשימת ימים שלא ניתנים לבחירה (למשל סופי שבע 5, 6).',
+	'semanticformsinputs-datepicker-highlightdaysofweek' => 'רשימת ימים שיופיעו בצורה מובלטת (לדוגמה סופי שבוע 5, 6).',
+	'semanticformsinputs-datepicker-disabledates' => 'רשימה מופרדת בפסיקים של תאריך/תאריכים לא אפשריים (תאריכים בפורמט yyyy/mm/dd, או טווח תאריכים בפורמט yyyy/mm/dd-yyyy/mm/dd).',
+	'semanticformsinputs-datepicker-showweeknumbers' => 'האם להציג את מספר השבוע בצד?',
+	'semanticformsinputs-datepicker-enableinputfield' => 'האם ניתן למלא את השדה ישירות או רק באמצעות בוחר תאריכים?',
 );
 
 /** Upper Sorbian (hornjoserbsce)
