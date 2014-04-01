@@ -9,8 +9,6 @@
  * @author Jeroen de Dauw
  * @author Sanyam Goyal
  * @author Yury Katkov
- *
- * @version 0.7
  */
 
 /**
@@ -36,7 +34,7 @@ if ( version_compare( SF_VERSION, '2.4.2', 'lt' ) ) {
 	die( '<b>Error:</b> This version of <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs">Semantic Forms Inputs</a> is only compatible with Semantic Forms 2.4.1 or above. You need to upgrade <a href="https://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms</a> first.' );
 }
 
-define( 'SFI_VERSION', '0.8 alpha' );
+define( 'SFI_VERSION', '0.9.0 alpha' );
 
 // create and initialize settings
 $sfigSettings = new SFISettings();
@@ -56,6 +54,7 @@ $dir = dirname( __FILE__ );
 // load user settings
 require_once( $dir . '/includes/SFI_Settings.php' );
 
+$wgMessagesDirs['SemanticFormsInputs'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SemanticFormsInputs'] = $dir . '/SemanticFormsInputs.i18n.php';
 $wgHooks['ParserFirstCallInit'][] = 'wfSFISetup';
 

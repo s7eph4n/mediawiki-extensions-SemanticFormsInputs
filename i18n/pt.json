@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Hamilton Abreu",
+            "Luckas"
+        ]
+    },
+    "semanticformsinputs-desc": "Tipos de entrada adicionais para [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Formulários Semânticos]",
+    "semanticformsinputs-wrongformat": "Formato incorreto.",
+    "semanticformsinputs-close": "Fechar",
+    "semanticformsinputs-prev": "Anterior",
+    "semanticformsinputs-next": "Seguinte",
+    "semanticformsinputs-today": "Hoje"
+}
