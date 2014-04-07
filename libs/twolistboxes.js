@@ -4,7 +4,6 @@
  * @author Yury Katkov
  *
  */
-
 window.SFI_TwoListboxes_init = function(input_id, params){
 	var $input = jQuery( "#" + input_id );
 

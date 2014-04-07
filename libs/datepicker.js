@@ -13,24 +13,24 @@ window.SFI_DP_init = function ( input_id, params ) {
 	var input;
 
 	if ( ! params.partOfDTP ) {
-		
+
 		input = jQuery( '<input type="hidden" >' );
 		input.attr( {
 			id: input_id,
 			name: inputShow.attr( 'name' ),
 			value: inputShow.val()
 		} );
-		
+
 		inputShow.after( input );
 		inputShow.removeAttr( 'name' );
 	} else {
 		input = inputShow;
 	}
-			
-	
+
+
 	var tabindex = inputShow.attr('tabindex');
-	
-	var re = /\d{4}\/\d{2}\/\d{2}/
+
+	var re = /\d{4}\/\d{2}\/\d{2}/;
 
 	if ( params.disabled ) {
 
@@ -48,12 +48,12 @@ window.SFI_DP_init = function ( input_id, params ) {
 		} else {
 			inputShow.val( params.currValue );
 		}
-		
+
 	} else {
 
 		// append reset button if image is set
 		if ( params.resetButtonImage && ! params.partOfDTP ) {
-			
+
 			var resetbutton = jQuery( '<button type="button" class="ui-datepicker-trigger ' + params.userClasses + '"><img src="' + params.resetButtonImage + '" alt="..." title="..."></button>' );
 			inputShow.after( resetbutton );
 			resetbutton.click( function(){
@@ -77,7 +77,7 @@ window.SFI_DP_init = function ( input_id, params ) {
 			'dateFormat': params.dateFormat,
 			'beforeShowDay': function ( date ) {return SFI_DP_checkDate( '#' + input_id + '_show', date );}
 		} );
-		
+
 		// at least in FF tabindex needs to be set delayed
 		setTimeout(function(){
 			inputShow.siblings('button').attr('tabindex', tabindex);
@@ -97,35 +97,41 @@ window.SFI_DP_init = function ( input_id, params ) {
 			inputShow.datepicker( 'widget' ).addClass( params.userClasses );
 			jQuery( '#' + input_id + ' + button' ).addClass( params.userClasses );
 		}
-
+		var i;
 		if ( params.disabledDates ) {
-			
-			var disabledDates = new Array();
 
-			for (i in params.disabledDates)
-				disabledDates.push([
+			var disabledDates = [];
+
+			for (i in params.disabledDates) {
+				if ( params.disabledDates[i] ) {
+					disabledDates.push([
 					new Date(params.disabledDates[i][0], params.disabledDates[i][1], params.disabledDates[i][2]),
 					new Date(params.disabledDates[i][3], params.disabledDates[i][4], params.disabledDates[i][5])
-				]);
+					]);
+				}
+			}
 
 			inputShow.datepicker( 'option', 'disabledDates', disabledDates );
 
-			delete disabledDates;
+			disabledDates = null;
 		}
 
 		if ( params.highlightedDates ) {
 
-			var highlightedDates = new Array();
+			var highlightedDates = [];
 
-			for (i in params.highlightedDates)
-				highlightedDates.push([
+			for (i in params.highlightedDates) {
+				if ( params.highlightedDates[i]) {
+					highlightedDates.push([
 					new Date(params.highlightedDates[i][0], params.highlightedDates[i][1], params.highlightedDates[i][2]),
 					new Date(params.highlightedDates[i][3], params.highlightedDates[i][4], params.highlightedDates[i][5])
-				]);
+					]);
+				}
+			}
 
 			inputShow.datepicker( 'option', 'highlightedDates', highlightedDates );
 
-			delete highlightedDates;
+			highlightedDates = null;
 		}
 
 		if (params.disabledDays) {
@@ -139,12 +145,12 @@ window.SFI_DP_init = function ( input_id, params ) {
 		if ( ! params.partOfDTP ) {
 
 			inputShow.datepicker( 'option', 'altField', input );
-			
+
 			// when the input loses focus set the date value
 			inputShow.change( function(){
 				// try parsing the value
 				try {
-					var value = jQuery.datepicker.parseDate( params.dateFormat, this.value, null );				
+					var value = jQuery.datepicker.parseDate( params.dateFormat, this.value, null );
 					input.val( jQuery.datepicker.formatDate( 'yy/mm/dd', value ) );
 				} catch ( e ) {
 					// value does not conform to specified format
@@ -153,7 +159,7 @@ window.SFI_DP_init = function ( input_id, params ) {
 				}
 			});
 		}
-		
+
 		if ( re.test( params.currValue ) ) {
 			inputShow.datepicker( 'setDate', jQuery.datepicker.parseDate( 'yy/mm/dd', params.currValue, null ) );
 		} else {
@@ -163,7 +169,7 @@ window.SFI_DP_init = function ( input_id, params ) {
 
 		inputShow.datepicker( 'widget' ).hide();
 	}
-}
+};
 
 /**
  * Checks a date if it is to be enabled or highlighted
@@ -179,9 +185,11 @@ function SFI_DP_checkDate( input, date ) {
 
 	var jInput = jQuery( input );
 
-	var enable = true
+	var enable = true;
 
 	var disabledDays = jInput.datepicker( 'option', 'disabledDays' );
+
+	var i = 0;
 
 	if ( disabledDays ) {
 		enable = !disabledDays[ date.getDay() ];
@@ -205,15 +213,15 @@ function SFI_DP_checkDate( input, date ) {
 	var highlightedDays = jInput.datepicker( 'option', 'highlightedDays' );
 
 	if ( highlightedDays && highlightedDays[ date.getDay() ] ) {
-		
+
 		highlight = 'ui-state-highlight';
-		
+
 	} else {
-		
+
 		var highlightedDates = jInput.datepicker( 'option', 'highlightedDates' );
 
 		if ( highlightedDates ) {
-			for ( var i = 0; i < highlightedDates.length; ++i ) {
+			for ( i = 0; i < highlightedDates.length; ++i ) {
 				if ( ( date >= highlightedDates[i][0] ) && ( date <= highlightedDates[i][1] ) ) {
 					highlight = 'ui-state-highlight';
 					break;

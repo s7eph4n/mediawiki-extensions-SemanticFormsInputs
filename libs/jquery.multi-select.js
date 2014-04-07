@@ -26,7 +26,7 @@
       multiSelects.each(function(){
         var ms = $(this);
 
-        if (ms.next('.ms-container').length == 0){
+        if (ms.next('.ms-container').length === 0){
           ms.attr('id', ms.attr('id') ? ms.attr('id') : 'ms-'+Math.ceil(Math.random()*1000));
           var container = $('<div id="ms-'+ms.attr('id')+'" class="ms-container"></div>'),
               selectableContainer = $('<div class="ms-selectable"></div>'),
@@ -35,7 +35,7 @@
               selectedUl = $('<ul class="ms-list"></ul>');
 
           if (multiSelects.settings.emptyArray){
-            if (ms.find("option[value='']").length == 0){
+            if (ms.find("option[value='']").length === 0){
               ms.prepend("<option value='' selected='selected'></option>");
             } else {
               ms.find("option[value='']").attr('selected', 'selected');
@@ -59,9 +59,10 @@
               var klass = $(this).attr('class') ? ' '+$(this).attr('class') : '';
               var selectableLi = $('<li class="ms-elem-selectable'+klass+'" ms-value="'+$(this).val()+'">'+$(this).text()+'</li>');
 
-              if ($(this).attr('title'))
+              if ($(this).attr('title')) {
                 selectableLi.attr('title', $(this).attr('title'));
-              if ($(this).attr('disabled') || ms.attr('disabled')){
+              }
+              if ($(this).attr('disabled') || ms.attr('disabled')) {
                 selectableLi.attr('disabled', 'disabled');
                 selectableLi.addClass(multiSelects.settings.disabledClass);
               }
@@ -105,21 +106,23 @@
           selectedUl = $('#ms-'+ms.attr('id')+' .ms-selection ul'),
           selectableLi = selectableUl.children('li[ms-value="'+value+'"]'),
           haveToSelect =  ((!selectableLi.hasClass(ms.data('settings').disabledClass)) ||
-                          (selectableLi.hasClass(ms.data('settings').disabledClass) && method == 'init')) &&
-                          value != '' &&
-                          ((method == 'init' && selectedOption.attr('selected')) ||
-                            (method != 'init' && !selectedOption.attr('selected')))
+                          (selectableLi.hasClass(ms.data('settings').disabledClass) && method === 'init')) &&
+                          value !== '' &&
+                          ((method === 'init' && selectedOption.attr('selected')) ||
+                            (method !== 'init' && !selectedOption.attr('selected')));
 
       if (haveToSelect ){
         var parentOptgroup = selectableLi.parent('.ms-optgroup');
-        if (parentOptgroup.length > 0)
-          if (parentOptgroup.children('.ms-elem-selectable:not(:hidden)').length == 1)
+        if (parentOptgroup.length > 0) {
+          if (parentOptgroup.children('.ms-elem-selectable:not(:hidden)').length === 1) {
             parentOptgroup.children('.ms-optgroup-label').hide();
+          }
+        }
         selectableLi.addClass('ms-selected');
         selectableLi.hide();
         selectedOption.attr('selected', 'selected');
         if(titleAttr){
-          selectedLi.attr('title', titleAttr)
+          selectedLi.attr('title', titleAttr);
         }
         if (selectableLi.hasClass(ms.data('settings').disabledClass)){
           selectedLi.addClass(ms.data('settings').disabledClass);
@@ -130,22 +133,23 @@
         }
 
         var selectedUlLis = selectedUl.children('.ms-elem-selected');
-        if (method != 'init' && ms.data('settings').keepOrder && selectedUlLis.length > 0) {
+        if (method !== 'init' && ms.data('settings').keepOrder && selectedUlLis.length > 0) {
 
           var getIndexOf = function(value) {
-            elems = selectableUl.children('.ms-elem-selectable');
+            var elems = selectableUl.children('.ms-elem-selectable');
             return(elems.index(elems.closest('[ms-value="'+value+'"]')));
-          }
+          };
 
           var index = getIndexOf(selectedLi.attr('ms-value'));
-          if (index == 0)
+          if (index === 0) {
             selectedUl.prepend(selectedLi);
+          }
           else {
-            for (i = index - 1; i >= 0; i--){
+            for (var i = index - 1; i >= 0; i--){
               if (selectedUlLis[i] && getIndexOf($(selectedUlLis[i]).attr('ms-value')) < index) {
                 $(selectedUlLis[i]).after(selectedLi);
                 break;
-              } else if (i == 0) {
+              } else if (i === 0) {
                 $(selectedUlLis[i]).before(selectedLi);
               }
             }
@@ -157,14 +161,14 @@
         if (ms.find("option[value='']")){
           ms.find("option[value='']").removeAttr('selected');
         }
-        if (method == "select_all" && parentOptgroup.children('.ms-elem-selectable').length > 0){
+        if (method === "select_all" && parentOptgroup.children('.ms-elem-selectable').length > 0){
           parentOptgroup.children('.ms-optgroup-label').hide();
         }
-        if(method != 'init' || ms.data('settings').callbackOnInit){
+        if(method !== 'init' || ms.data('settings').callbackOnInit){
           selectedUl.trigger('change');
           selectableUl.trigger('change');
-          if (typeof ms.data('settings').afterSelect == 'function' &&
-              (method != 'init' || ms.data('settings').callbackOnInit)) {
+          if (typeof ms.data('settings').afterSelect === 'function' &&
+              (method !== 'init' || ms.data('settings').callbackOnInit)) {
             ms.data('settings').afterSelect.call(this, value, text);
           }
         }
@@ -177,10 +181,10 @@
           selectedLi = selectedUl.children('li[ms-value="'+value+'"]');
 
       if(selectedLi){
-        var selectableUl = $('#ms-'+ms.attr('id')+' .ms-selectable ul'),
-            selectedUl = $('#ms-'+ms.attr('id')+' .ms-selection ul'),
-            selectableLi = selectableUl.children('li[ms-value="'+value+'"]'),
-            selectedLi = selectedUl.children('li[ms-value="'+value+'"]');
+        var selectableUl = $('#ms-'+ms.attr('id')+' .ms-selectable ul');
+        selectedUl = $('#ms-'+ms.attr('id')+' .ms-selection ul');
+        var selectableLi = selectableUl.children('li[ms-value="'+value+'"]');
+        selectedLi = selectedUl.children('li[ms-value="'+value+'"]');
 
         var parentOptgroup = selectableLi.parent('.ms-optgroup');
         if (parentOptgroup.length > 0){
@@ -191,14 +195,14 @@
         selectableLi.show();
         selectableLi.removeClass('ms-selected');
         selectedLi.remove();
-        if (ms.data('settings').emptyArray && selectedUl.children('li').length == 0){
+        if (ms.data('settings').emptyArray && selectedUl.children('li').length === 0){
           if (ms.find("option[value='']")){
             ms.find("option[value='']").attr('selected', 'selected');
           }
         }
         selectedUl.trigger('change');
         selectableUl.trigger('change');
-        if (typeof ms.data('settings').afterDeselect == 'function') {
+        if (typeof ms.data('settings').afterDeselect === 'function') {
           ms.data('settings').afterDeselect.call(this, value, selectedLi.text());
         }
       }
@@ -233,7 +237,9 @@
     } else if ( typeof method === 'object' || ! method ) {
       return msMethods.init.apply( this, arguments );
     } else {
-      if(console.log) console.log( 'Method ' +  method + ' does not exist on jquery.multiSelect' );
+      if(console.log) {
+        console.log( 'Method ' +  method + ' does not exist on jquery.multiSelect' );
+      }
     }
     return false;
   };

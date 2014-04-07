@@ -16,7 +16,7 @@ window.SFI_MS_init = function( inputID, params ) {
 
 	inputShow.one('focus', function(){
 
-		var treeid = "#" + inputID.replace(/input/,"span") + "_tree"
+		var treeid = "#" + inputID.replace(/input/,"span") + "_tree";
 		var tree = jQuery( treeid );
 		var treeRoot = tree.children( "ul" );
 		var treeAllLists = tree.find( "ul" );
@@ -38,7 +38,7 @@ window.SFI_MS_init = function( inputID, params ) {
 				var item = jQuery( this );
 				var contents = item.contents()//.not( "ul" );
 					.filter(function() {
-					  return ! jQuery( this ).is('ul');
+						return ! jQuery( this ).is('ul');
 					});
 
 				contents
@@ -47,14 +47,14 @@ window.SFI_MS_init = function( inputID, params ) {
 				// insert the arrows indicating submenus
 				if ( item.children( "ul" ).length > 0 ) {
 					contents.parent()
-					.after( '<td class="arrow" ><img src="' + sfigScriptPath + '/images/MenuSelectArrow.gif" /></td>' )
+					.after( '<td class="arrow" ><img src="' + sfigScriptPath + '/images/MenuSelectArrow.gif" /></td>' );
 				}
 
 				maxwidth = Math.max( item.outerWidth(false) + 10, maxwidth );
 
 				item.css('position', 'static');
 
-			} )
+			} );
 
 			if ( jQuery.browser.msie && document.documentMode <= "7" ) {
 				maxwidth = 100;
@@ -63,7 +63,7 @@ window.SFI_MS_init = function( inputID, params ) {
 				.height( window.screen.height );
 			} else if ( jQuery.browser.webkit || jQuery.browser.safari ) {
 				maxwidth = 100;
-			};
+			}
 
 
 			listitems
@@ -83,10 +83,10 @@ window.SFI_MS_init = function( inputID, params ) {
 				// find title of target page
 				if ( link.hasClass( 'new' ) ) { // for red links get it from the href
 
-					regexp = /.*title=([^&]*).*/;
-					res = regexp.exec( link.attr( 'href' ) );
+					var regexp = /.*title=([^&]*).*/;
+					var res = regexp.exec( link.attr( 'href' ) );
 
-					title = unescape( res[1] );
+					var title = unescape( res[1] );
 					title = title.replace('_', ' ', 'g');
 
 					link.data( 'title', title ); // save title in data
@@ -121,7 +121,7 @@ window.SFI_MS_init = function( inputID, params ) {
 			if ( target.children( "ul" ).length > 0 ) {
 
 				// if we reentered (i.e. moved mouse from item to sub-item)
-				if ( target.data( "timeout" ) != null) {
+				if ( target.data( "timeout" ) !== null) {
 
 					// clear any timeout that may still run on the list item
 					// (i.e. do not fade out submenu)
@@ -170,13 +170,13 @@ window.SFI_MS_init = function( inputID, params ) {
 			// switch classes to change display style
 			target
 			.removeClass( "ui-state-hover" )
-			.addClass( "ui-state-default" )
+			.addClass( "ui-state-default" );
 
 			// if list item has sub-items...
 			if ( target.children( "ul" ).length > 0 ) {
 
 				// if we just moved in and out of the item (without really hovering)
-				if ( target.data( "timeout" ) != null ) {
+				if ( target.data( "timeout" ) !== null ) {
 
 					// clear any timeout that may still run on the list item
 					// (i.e. do not fade in submenu)
@@ -231,7 +231,7 @@ window.SFI_MS_init = function( inputID, params ) {
 			var link = content.children( "a" );
 
 			// if content is link
-			if ( link.length == 1 ) {
+			if ( link.length === 1 ) {
 
 				// use title set by MW
 				jQuery( "#" + inputID ).attr( "value", link.data( "title" ) );
@@ -278,4 +278,4 @@ window.SFI_MS_init = function( inputID, params ) {
 		.fadeTo( 400, 1 );
 
 	});
-}
+};

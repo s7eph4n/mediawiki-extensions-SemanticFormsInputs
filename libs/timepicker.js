@@ -24,26 +24,26 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 	inputShow.attr( 'id', inputIDshow );
 
 	var input;
-	
+
 	// set up hidden input if this timepicker is not part of a datetimepicker
 	if ( ! params.partOfDTP ) {
-		
+
 		input = jQuery( '<input type="hidden" >');
 		input.attr( {
 			id: inputID,
 			name: inputShow.attr( 'name' ),
 			value: inputShow.val()
 		} );
-		
+
 		inputShow.after( input );
 		inputShow.removeAttr( 'name' );
-		
+
 	} else {
 		input = inputShow;
 	}
-	
+
 	var tabindex = inputShow.attr('tabindex');
-	
+
 	// append time picker button
 	var button = jQuery( '<button type="button" ></button>' );
 	button.attr({
@@ -51,7 +51,7 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 		'id': inputID + '_button',
 		'tabindex': tabindex
 	});
-			
+
 
 	if ( params.disabled ) {
 
@@ -65,21 +65,21 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 			} else {
 				inputShow.focus();
 			}
-			
+
 		} );
 
 	}
 
 	var img = jQuery( '<img>' );
 	img.attr( 'src', params.buttonImage );
-			
+
 	button.append( img );
 
 	input.after( button );
 
 	// append inert reset button if image is set
 	if ( params.resetButtonImage && ! params.partOfDTP ) {
-			
+
 		var resetbutton = jQuery('<button type="button" ></button>');
 		resetbutton.attr({
 			'class': params.userClasses,
@@ -100,7 +100,7 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 
 		img = jQuery( '<img>' );
 		img.attr( 'src', params.resetButtonImage );
-			
+
 		resetbutton.append( img );
 		button.after( resetbutton );
 	}
@@ -119,7 +119,9 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 		minh = Number( min[0] );
 		minm = Number( min[1] );
 
-		if ( minm > 59 ) minm = 59;
+		if ( minm > 59 ) {
+			minm = 59;
+		}
 	}
 
 	if ( re.test( params.maxTime ) ) {
@@ -128,13 +130,19 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 		maxh = Number( max[0] );
 		maxm = Number( max[1] );
 
-		if ( maxm > 59 ) maxm = 59;
+		if ( maxm > 59 ) {
+			maxm = 59;
+		}
 	}
 
 	var interv = Number( params.interval );
 
-	if ( interv < 1 ) interv = 1;
-	else if ( interv > 60 ) interv = 60;
+	if ( interv < 1 ) {
+		interv = 1;
+	}
+	else if ( interv > 60 ) {
+		interv = 60;
+	}
 
 	// build html structure
 	var sp = jQuery( '<span class="SFI_timepicker" id="' + inputID + '_tree" ></span>' ).insertBefore( inputShow );
@@ -153,7 +161,7 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 
 		var ulm = jQuery( '<ul class="SFI_timepicker_minutes" >' ).appendTo( lih );
 
-		for ( var m = ( (h == minh) ? minm : 0 ) ; m <= ( (h == maxh) ? maxm : 59 ); m += interv ) {
+		for ( var m = ( (h === minh) ? minm : 0 ) ; m <= ( (h === maxh) ? maxm : 59 ); m += interv ) {
 
 			var lim = jQuery( '<li class="ui-state-default SFI_timepicker_minute">' + ( ( m < 10 ) ? '0' : '' ) + m  + '</li>' ).appendTo( ulm );
 
@@ -212,7 +220,7 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 
 	jQuery( '#' + inputID + '_tree li' ) // hours, minutes
 	.mousedown(function(evt){
-		
+
 		// set values and leave input
 		inputShow
 		.attr( 'value', jQuery( this ).data( 'show' ) )
@@ -261,4 +269,4 @@ window.SFI_TP_init = function( inputID, params ) { // minTime, maxTime, interval
 	.click( function() {
 		inputShow.val('');
 	});
-}
+};

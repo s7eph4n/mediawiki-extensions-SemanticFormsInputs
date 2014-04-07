@@ -16,6 +16,7 @@
  * @return (Boolean) true, if the input's value matches the regular expression in
  *         retext, false otherwise; the value is inverted if inverse is true
  */
+
 window.SFI_RE_validate = function( input_id, params ) { //input_number, retext, inverse, message, multiple
 
 	var match;
@@ -26,7 +27,7 @@ window.SFI_RE_validate = function( input_id, params ) { //input_number, retext, 
 		message = params.message;
 	} catch (e) {
 		match = false;
-		message = params.error.replace('$1', e );	
+		message = params.error.replace('$1', e );
 	}
 
 	if ( ( match && ! params.inverse ) || ( ! match && params.inverse ) ) {
@@ -35,4 +36,4 @@ window.SFI_RE_validate = function( input_id, params ) { //input_number, retext, 
 		jQuery( '#' + input_id ).parent().addErrorMessage( message );
 		return false;
 	}
-}
+};
