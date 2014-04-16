@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Avjoska",
-            "Pikne"
-        ]
-    },
-    "semanticformsinputs-close": "Sule",
-    "semanticformsinputs-prev": "Eelmine",
-    "semanticformsinputs-next": "Järgmine",
-    "semanticformsinputs-today": "Täna"
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"semanticformsinputs-close": "Sule",
+	"semanticformsinputs-prev": "Eelmine",
+	"semanticformsinputs-next": "Järgmine",
+	"semanticformsinputs-today": "Täna"
 }

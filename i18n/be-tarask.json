@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "EugeneZelenko",
-            "Jim-by"
-        ]
-    },
-    "semanticformsinputs-desc": "Дадатковыя тыпы ўводу для [http://www.mediawiki.org/wiki/Extension:Semantic_Forms сэмантычных формаў]",
-    "semanticformsinputs-wrongformat": "Няслушны фармат.",
-    "semanticformsinputs-close": "Закрыць",
-    "semanticformsinputs-prev": "Папярэдняе",
-    "semanticformsinputs-next": "Наступнае",
-    "semanticformsinputs-today": "Сёньня"
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by"
+		]
+	},
+	"semanticformsinputs-desc": "Дадатковыя тыпы ўводу для [http://www.mediawiki.org/wiki/Extension:Semantic_Forms сэмантычных формаў]",
+	"semanticformsinputs-wrongformat": "Няслушны фармат.",
+	"semanticformsinputs-close": "Закрыць",
+	"semanticformsinputs-prev": "Папярэдняе",
+	"semanticformsinputs-next": "Наступнае",
+	"semanticformsinputs-today": "Сёньня"
 }
