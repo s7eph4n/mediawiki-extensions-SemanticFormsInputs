@@ -7,7 +7,7 @@
 			"IAlex"
 		]
 	},
-	"semanticformsinputs-desc": "Types d'entrées additionnelles pour [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Formulaires sémantiques]",
+	"semanticformsinputs-desc": "Types d'entrées additionnelles pour [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Formulaires sémantiques]",
 	"semanticformsinputs-wrongformat": "Format erroné.",
 	"semanticformsinputs-close": "Fermer",
 	"semanticformsinputs-prev": "Précédent",
@@ -15,7 +15,7 @@
 	"semanticformsinputs-today": "Aujourd'hui",
 	"semanticformsinputs-dateformatshort": "dd / mm / yy",
 	"semanticformsinputs-malformedregexp": "Expression régulière mal formée ($1).",
-	"semanticformsinputs-datepicker-dateformat": "La chaîne de format de date. Voyez la [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentation en ligne] pour plus d'information.",
+	"semanticformsinputs-datepicker-dateformat": "La chaîne de format de date. Voyez la [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentation en ligne] pour plus d'information.",
 	"semanticformsinputs-datepicker-weekstart": "Le premier jour de la semaine (0 - dimanche, 1 - lundi, ...).",
 	"semanticformsinputs-datepicker-firstdate": "La première date qui peut être choisie (au format aaaa/mm/jj).",
 	"semanticformsinputs-datepicker-lastdate": "La dernière date qui peut être choisie (au format aaaa/mm/jj).",

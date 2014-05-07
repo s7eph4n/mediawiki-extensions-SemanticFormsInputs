@@ -5,14 +5,14 @@
 			"Nghtwlkr"
 		]
 	},
-	"semanticformsinputs-desc": "Ekstra inndatatyper for [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
+	"semanticformsinputs-desc": "Ekstra inndatatyper for [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Semantic Forms]",
 	"semanticformsinputs-wrongformat": "Feil format.",
 	"semanticformsinputs-close": "Lukk",
 	"semanticformsinputs-prev": "Forrige",
 	"semanticformsinputs-next": "Neste",
 	"semanticformsinputs-today": "I dag",
 	"semanticformsinputs-malformedregexp": "Feilutformet regulæruttrykk: $1",
-	"semanticformsinputs-datepicker-dateformat": "Datoformatstreng. Se [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentation] for nærmere informasjon.",
+	"semanticformsinputs-datepicker-dateformat": "Datoformatstreng. Se [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentation] for nærmere informasjon.",
 	"semanticformsinputs-datepicker-weekstart": "Første ukedag (0 - søndag, 1 - mandag, ...).",
 	"semanticformsinputs-datepicker-firstdate": "Første valgbare dato (med \"yyyy/mm/dd\"-format).",
 	"semanticformsinputs-datepicker-lastdate": "Siste valgbare dato (med \"yyyy/mm/dd\"-format).",

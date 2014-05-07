@@ -5,14 +5,14 @@
 			"F. Cosoleto"
 		]
 	},
-	"semanticformsinputs-desc": "Ulteriori tipi di input per [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
+	"semanticformsinputs-desc": "Ulteriori tipi di input per [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Semantic Forms]",
 	"semanticformsinputs-wrongformat": "Formato errato.",
 	"semanticformsinputs-close": "Chiudi",
 	"semanticformsinputs-prev": "Precedente",
 	"semanticformsinputs-next": "Successivo",
 	"semanticformsinputs-today": "Oggi",
 	"semanticformsinputs-malformedregexp": "Espressione regolare mal formattata ($1).",
-	"semanticformsinputs-datepicker-dateformat": "La stringa di formato data. Vedi la [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentazione online] per ulteriori informazioni.",
+	"semanticformsinputs-datepicker-dateformat": "La stringa di formato data. Vedi la [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentazione online] per ulteriori informazioni.",
 	"semanticformsinputs-datepicker-weekstart": "Il primo giorno della settimana (0 - domenica, 1 - lunedì, ...).",
 	"semanticformsinputs-datepicker-firstdate": "La prima data che può essere scelta (in formato aaaa/mm/gg).",
 	"semanticformsinputs-datepicker-lastdate": "L'ultima data che può essere scelta (in formato aaaa/mm/gg).",

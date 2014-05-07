@@ -6,14 +6,14 @@
 			"Translationista"
 		]
 	},
-	"semanticformsinputs-desc": "Tipos de entrada adicionales para [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Formularios Semánticos]",
+	"semanticformsinputs-desc": "Tipos de entrada adicionales para [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Formularios Semánticos]",
 	"semanticformsinputs-wrongformat": "Formato incorrecto.",
 	"semanticformsinputs-close": "Cerrar",
 	"semanticformsinputs-prev": "Anterior",
 	"semanticformsinputs-next": "Siguiente",
 	"semanticformsinputs-today": "Hoy",
 	"semanticformsinputs-malformedregexp": "Expresión regular formada incorrectamente ($1).",
-	"semanticformsinputs-datepicker-dateformat": "La cadena de formato de fecha. Véase la [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentación en línea] para obtener más información.",
+	"semanticformsinputs-datepicker-dateformat": "La cadena de formato de fecha. Véase la [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentación en línea] para obtener más información.",
 	"semanticformsinputs-datepicker-weekstart": "El primer día de la semana (0 = domingo, 1 = lunes...).",
 	"semanticformsinputs-datepicker-firstdate": "La primera fecha que se puede elegir (en formato aaaa/mm/dd).",
 	"semanticformsinputs-datepicker-lastdate": "La última data que se puede elegir (en formato aaaa/mm/dd).",

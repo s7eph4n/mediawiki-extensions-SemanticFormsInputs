@@ -4,14 +4,14 @@
 			"Martinwiss"
 		]
 	},
-	"semanticformsinputs-desc": "Ännu mer indata-typer för [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
+	"semanticformsinputs-desc": "Ännu mer indata-typer för [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Semantic Forms]",
 	"semanticformsinputs-wrongformat": "Fel format.",
 	"semanticformsinputs-close": "Stäng",
 	"semanticformsinputs-prev": "Föregående",
 	"semanticformsinputs-next": "Nästa",
 	"semanticformsinputs-today": "Idag",
 	"semanticformsinputs-malformedregexp": "Felaktig regexp ($1)",
-	"semanticformsinputs-datepicker-dateformat": "Format för datum. Se [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentation] för ytterligare information.",
+	"semanticformsinputs-datepicker-dateformat": "Format för datum. Se [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentation] för ytterligare information.",
 	"semanticformsinputs-datepicker-weekstart": "Första dagen i veckan (0 - söndag, 1 - måndag, ...).",
 	"semanticformsinputs-datepicker-firstdate": "Första datum som kan väljas (i formatet åååå/mm/dd).",
 	"semanticformsinputs-datepicker-lastdate": "Sista datum som kan väljas (i formatet åååå/mm/dd).",

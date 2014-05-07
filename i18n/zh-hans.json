@@ -5,14 +5,14 @@
 			"Linforest"
 		]
 	},
-	"semanticformsinputs-desc": "用于[http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]的附加输入项类型",
+	"semanticformsinputs-desc": "用于[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Semantic Forms]的附加输入项类型",
 	"semanticformsinputs-wrongformat": "格式错误。",
 	"semanticformsinputs-close": "关闭",
 	"semanticformsinputs-prev": "向前",
 	"semanticformsinputs-next": "下一个",
 	"semanticformsinputs-today": "今天",
 	"semanticformsinputs-malformedregexp": "格式错误的正则表达式（$1）。",
-	"semanticformsinputs-datepicker-dateformat": "日期格式字符串。详情请参见[http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters 在线文档]。",
+	"semanticformsinputs-datepicker-dateformat": "日期格式字符串。详情请参见[https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters 在线文档]。",
 	"semanticformsinputs-datepicker-weekstart": "一周的第一天（0-星期日，1-星期一 ……）。",
 	"semanticformsinputs-datepicker-firstdate": "可选择的第一个日期（采用 dd/yyyy/mm 格式）。",
 	"semanticformsinputs-datepicker-lastdate": "可选择的最后日期（采用 dd/yyyy/mm 格式）。",

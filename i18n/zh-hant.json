@@ -4,14 +4,14 @@
 			"Mark85296341"
 		]
 	},
-	"semanticformsinputs-desc": "用於[http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]的附加輸入項類型",
+	"semanticformsinputs-desc": "用於[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Semantic Forms]的附加輸入項類型",
 	"semanticformsinputs-wrongformat": "格式不正確。",
 	"semanticformsinputs-close": "關閉",
 	"semanticformsinputs-prev": "上一個",
 	"semanticformsinputs-next": "下一個",
 	"semanticformsinputs-today": "今天",
 	"semanticformsinputs-malformedregexp": "格式錯誤的正則表達式（$1）。",
-	"semanticformsinputs-datepicker-dateformat": "日期格式字符串。詳情請參見[http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters 在線文檔]。",
+	"semanticformsinputs-datepicker-dateformat": "日期格式字符串。詳情請參見[https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters 在線文檔]。",
 	"semanticformsinputs-datepicker-weekstart": "一周的第一天（0-星期日，1-星期一 ……）。",
 	"semanticformsinputs-datepicker-firstdate": "可選擇的第一個日期（採用 dd/yyyy/mm 格式）。",
 	"semanticformsinputs-datepicker-lastdate": "可選擇的最後日期（採用 dd/yyyy/mm 格式）。",

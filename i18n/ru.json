@@ -9,7 +9,7 @@
 			"Сrower"
 		]
 	},
-	"semanticformsinputs-desc": "Дополнительные входящие типы для [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Семантических Форм]",
+	"semanticformsinputs-desc": "Дополнительные входящие типы для [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Семантических Форм]",
 	"semanticformsinputs-wrongformat": "Неверный формат.",
 	"semanticformsinputs-close": "Закрыть",
 	"semanticformsinputs-prev": "Предыдущая",
@@ -17,7 +17,7 @@
 	"semanticformsinputs-today": "Сегодня",
 	"semanticformsinputs-firstdayofweek": "1",
 	"semanticformsinputs-malformedregexp": "Неверно сформированное регулярное выражение ($1).",
-	"semanticformsinputs-datepicker-dateformat": "Строка формата даты. Смотрите [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters онлайн документацию] для получения дополнительной информации.",
+	"semanticformsinputs-datepicker-dateformat": "Строка формата даты. Смотрите [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters онлайн документацию] для получения дополнительной информации.",
 	"semanticformsinputs-datepicker-weekstart": "Первый день недели (0 - воскресенье, 1 - понедельник,...).",
 	"semanticformsinputs-datepicker-firstdate": "Первая дата, которая может быть выбрана (в формате yyyy/mm/dd).",
 	"semanticformsinputs-datepicker-lastdate": "Последняя дата, которая может быть выбрана (в формате yyyy/mm/dd).",

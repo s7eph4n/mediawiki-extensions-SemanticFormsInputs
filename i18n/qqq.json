@@ -6,10 +6,11 @@
 			"Kghbln",
 			"Shirayuki",
 			"The Evil IP address",
-			"Umherirrender"
+			"Umherirrender",
+			"Raymond"
 		]
 	},
-	"semanticformsinputs-desc": "{{desc|name=Semantic Forms Inputs|url=http://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs}}",
+	"semanticformsinputs-desc": "{{desc|name=Semantic Forms Inputs|url=https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms_Inputs}}",
 	"semanticformsinputs-wrongformat": "Used as error message.",
 	"semanticformsinputs-close": "Used as label for the \"Close\" button in the Date picker.\n{{Identical|Close}}",
 	"semanticformsinputs-prev": "Used as label for the \"Previous month\" button in the Date picker.\n\nSee also:\n* {{msg-mw|Semanticformsinputs-next}}\n{{Identical|Previous}}",

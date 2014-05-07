@@ -5,14 +5,14 @@
 			"Jaideraf"
 		]
 	},
-	"semanticformsinputs-desc": "Tipos de entrada adicionais para [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Formulários Semânticos]",
+	"semanticformsinputs-desc": "Tipos de entrada adicionais para [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Formulários Semânticos]",
 	"semanticformsinputs-wrongformat": "Formato incorreto.",
 	"semanticformsinputs-close": "Fechar",
 	"semanticformsinputs-prev": "Anterior",
 	"semanticformsinputs-next": "Seguinte",
 	"semanticformsinputs-today": "Hoje",
 	"semanticformsinputs-malformedregexp": "Expressão regular incorreta ($1).",
-	"semanticformsinputs-datepicker-dateformat": "A string do formato de data. Veja a [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentação online] para mais informações.",
+	"semanticformsinputs-datepicker-dateformat": "A string do formato de data. Veja a [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentação online] para mais informações.",
 	"semanticformsinputs-datepicker-weekstart": "O primeiro dia da semana (0 - Domingo, 1 - Segunda, ...).",
 	"semanticformsinputs-datepicker-firstdate": "A primeira data que pode ser escolhida (formato aaaa/mm/dd).",
 	"semanticformsinputs-datepicker-lastdate": "A última data que pode ser escolhida (formato aaaa/mm/dd).",

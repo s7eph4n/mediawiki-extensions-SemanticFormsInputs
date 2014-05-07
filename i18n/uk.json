@@ -6,14 +6,14 @@
 			"Тест"
 		]
 	},
-	"semanticformsinputs-desc": "Додаткові типи вводу для [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Семантичних форм]",
+	"semanticformsinputs-desc": "Додаткові типи вводу для [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Семантичних форм]",
 	"semanticformsinputs-wrongformat": "Неправильний формат.",
 	"semanticformsinputs-close": "Закрити",
 	"semanticformsinputs-prev": "Попередня",
 	"semanticformsinputs-next": "Наступна",
 	"semanticformsinputs-today": "Сьогодні",
 	"semanticformsinputs-malformedregexp": "Неправильний регулярний вираз ($1).",
-	"semanticformsinputs-datepicker-dateformat": "Рядок формату дати. Див. [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Онлайн параметри] для отримання додаткової інформації.",
+	"semanticformsinputs-datepicker-dateformat": "Рядок формату дати. Див. [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Онлайн параметри] для отримання додаткової інформації.",
 	"semanticformsinputs-datepicker-weekstart": "Перший день тижня (0 - неділя, 1 - понеділок, ...).",
 	"semanticformsinputs-datepicker-firstdate": "Перша дата, яка може бути обрана (у форматі рррр/мм/дд).",
 	"semanticformsinputs-datepicker-lastdate": "Остання дата, яка може бути обрана (у форматі рррр/мм/дд).",

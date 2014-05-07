@@ -6,14 +6,14 @@
 			"Silvonen"
 		]
 	},
-	"semanticformsinputs-desc": "[http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semanttisten lomakkeiden] lisäsyötetyypit",
+	"semanticformsinputs-desc": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Semanttisten lomakkeiden] lisäsyötetyypit",
 	"semanticformsinputs-wrongformat": "Väärä muoto.",
 	"semanticformsinputs-close": "Sulje",
 	"semanticformsinputs-prev": "Edellinen",
 	"semanticformsinputs-next": "Seuraava",
 	"semanticformsinputs-today": "Tänään",
 	"semanticformsinputs-malformedregexp": "Virheellisesti muodostettu säännöllinen lauseke ($1).",
-	"semanticformsinputs-datepicker-dateformat": "Päivämäärän muotomerkkijono. Lisätietoja löytyy [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters ohjeesta].",
+	"semanticformsinputs-datepicker-dateformat": "Päivämäärän muotomerkkijono. Lisätietoja löytyy [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters ohjeesta].",
 	"semanticformsinputs-datepicker-weekstart": "Viikon ensimmäinen päivä (0 - sunnuntai, 1 - maanantai...).",
 	"semanticformsinputs-datepicker-firstdate": "Ensimmäinen päivämäärä, joka voidaan valita (muodossa vvvv/kk/pp).",
 	"semanticformsinputs-datepicker-lastdate": "Viimeinen päivämäärä, joka voidaan valita (muodossa vvvv/kk/pp).",

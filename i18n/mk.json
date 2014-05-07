@@ -5,14 +5,14 @@
 			"F.trott"
 		]
 	},
-	"semanticformsinputs-desc": "Дополнителни типови на внос за [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Семантички обрасци]",
+	"semanticformsinputs-desc": "Дополнителни типови на внос за [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Семантички обрасци]",
 	"semanticformsinputs-wrongformat": "Погрешен формат.",
 	"semanticformsinputs-close": "Затвори",
 	"semanticformsinputs-prev": "Претходно",
 	"semanticformsinputs-next": "Следно",
 	"semanticformsinputs-today": "Денес",
 	"semanticformsinputs-malformedregexp": "Погрешно срочен регуларен израз ($1).",
-	"semanticformsinputs-datepicker-dateformat": "Низа за датумски формат. За повеќе информации, погледајте ја [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters документацијата].",
+	"semanticformsinputs-datepicker-dateformat": "Низа за датумски формат. За повеќе информации, погледајте ја [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters документацијата].",
 	"semanticformsinputs-datepicker-weekstart": "Прв ден во седмицата (0 - недела, 1 - понеделник, ...).",
 	"semanticformsinputs-datepicker-firstdate": "Првиот датум што ќе може да се избере (во форматот гггг/мм/дд).",
 	"semanticformsinputs-datepicker-lastdate": "Последниот датум што може да се обере (во форматот гггг/мм/дд).",

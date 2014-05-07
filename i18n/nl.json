@@ -6,14 +6,14 @@
 			"Siebrand"
 		]
 	},
-	"semanticformsinputs-desc": "Extra invoertypen voor [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
+	"semanticformsinputs-desc": "Extra invoertypen voor [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Semantic Forms]",
 	"semanticformsinputs-wrongformat": "Onjuiste opmaak.",
 	"semanticformsinputs-close": "Sluiten",
 	"semanticformsinputs-prev": "Vorige",
 	"semanticformsinputs-next": "Volgende",
 	"semanticformsinputs-today": "Vandaag",
 	"semanticformsinputs-malformedregexp": "Ongeldige reguliere expressie ($1).",
-	"semanticformsinputs-datepicker-dateformat": "De datumopmaak. Zie de [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentatie] voor meer informatie.",
+	"semanticformsinputs-datepicker-dateformat": "De datumopmaak. Zie de [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentatie] voor meer informatie.",
 	"semanticformsinputs-datepicker-weekstart": "De eerste dag van de week (0: zondag, 1: maandag, ...).",
 	"semanticformsinputs-datepicker-firstdate": "De eerste datum die gekozen kan worden (in de opmaak jjjj/mm/dd).",
 	"semanticformsinputs-datepicker-lastdate": "De laatste datum die gekozen kan worden (in de opmaak jjjj/mm/dd).",

@@ -5,14 +5,14 @@
 			"Dragonòt"
 		]
 	},
-	"semanticformsinputs-desc": "Sòrt d'intrade adissionaj për [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Formolari Semàntich]",
+	"semanticformsinputs-desc": "Sòrt d'imission adissionaj për [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Formolari Semàntich]",
 	"semanticformsinputs-wrongformat": "Formà pa bon.",
 	"semanticformsinputs-close": "Sara",
 	"semanticformsinputs-prev": "Prima",
 	"semanticformsinputs-next": "Apress",
 	"semanticformsinputs-today": "Ancheuj",
 	"semanticformsinputs-malformedregexp": "Espression regolar malformà ($1).",
-	"semanticformsinputs-datepicker-dateformat": "La stringa ëd formà ëd data. Ch'a vëdda la [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentassion an linia] për savèjne ëd pi.",
+	"semanticformsinputs-datepicker-dateformat": "La stringa ëd formà ëd data. Ch'a vëdda la [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters documentassion an linia] për savèjne ëd pi.",
 	"semanticformsinputs-datepicker-weekstart": "Ël prim di dla sman-a (0 - Dumìnica, 1 - Lùn-es, ...).",
 	"semanticformsinputs-datepicker-firstdate": "La prima data ch'a peul esse sërnùa (ant ël formà aaaa/mm/dd).",
 	"semanticformsinputs-datepicker-lastdate": "L'ùltima data ch'a peul esse sërnùa (ant ël formà aaaa/mm/dd).",

@@ -4,14 +4,14 @@
 			"Protnet"
 		]
 	},
-	"semanticformsinputs-desc": "Επιπρόσθετοι τύποι εισαγωγής δεδομένων για τις [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Σημασιολογικές Φόρμες]",
+	"semanticformsinputs-desc": "Επιπρόσθετοι τύποι εισαγωγής δεδομένων για τις [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Σημασιολογικές Φόρμες]",
 	"semanticformsinputs-wrongformat": "Εσφαλμένη μορφή.",
 	"semanticformsinputs-close": "Κλείσιμο",
 	"semanticformsinputs-prev": "Προηγούμενο",
 	"semanticformsinputs-next": "Επόμενο",
 	"semanticformsinputs-today": "Σήμερα",
 	"semanticformsinputs-malformedregexp": "Κακή μορφή κανονικής έκφρασης ($1).",
-	"semanticformsinputs-datepicker-dateformat": "Η συμβολοσειρά μορφοποίησης ημερομηνίας. Δείτε την [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters ηλεκτρονική τεκμηρίωση] για περισσότερες πληροφορίες.",
+	"semanticformsinputs-datepicker-dateformat": "Η συμβολοσειρά μορφοποίησης ημερομηνίας. Δείτε την [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters ηλεκτρονική τεκμηρίωση] για περισσότερες πληροφορίες.",
 	"semanticformsinputs-datepicker-weekstart": "Η πρώτη ημέρα της εβδομάδας (0 - Κυριακή, 1 - Δευτέρα, ...).",
 	"semanticformsinputs-datepicker-firstdate": "Η πρώτη ημερομηνία που μπορεί να επιλεγεί (σε μορφή εεεε/μμ/ηη).",
 	"semanticformsinputs-datepicker-lastdate": "Η τελευταία ημερομηνία που μπορεί να επιλεγεί (σε μορφή εεεε/μμ/ηη).",

@@ -5,14 +5,14 @@
 			"Mjbmr"
 		]
 	},
-	"semanticformsinputs-desc": "انواع ورودی اضافه برای [http://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Forms]",
+	"semanticformsinputs-desc": "انواع ورودی اضافه برای [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms Semantic Forms]",
 	"semanticformsinputs-wrongformat": "فرمت اشتباه.",
 	"semanticformsinputs-close": "بستن",
 	"semanticformsinputs-prev": "قبلی",
 	"semanticformsinputs-next": "بعدی",
 	"semanticformsinputs-today": "امروز",
 	"semanticformsinputs-malformedregexp": "عبارت ناقص ($1).",
-	"semanticformsinputs-datepicker-dateformat": "دسته فرمت تاریخ. برای اطلاعات بیشتر [http://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentation] را مشاهده کنید.",
+	"semanticformsinputs-datepicker-dateformat": "دسته فرمت تاریخ. برای اطلاعات بیشتر [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters online documentation] را مشاهده کنید.",
 	"semanticformsinputs-datepicker-weekstart": "اولین روز هفته (۰ - یکشنبه، ۱ - دوشنبه،...).",
 	"semanticformsinputs-datepicker-firstdate": "اول تاریخی که می‌تواند انتخاب شود (در فرمت ‌دی‌دی/ام‌ام/وای‌وای‌وای‌وای).",
 	"semanticformsinputs-datepicker-lastdate": "آخرین تاریخی که می‌تواند انتخاب شود (در فرمت دی‌دی/ام‌ام/وای‌وای‌وای‌وای).",
