@@ -14,6 +14,7 @@
 	"semanticformsinputs-datepicker-weekstart": "Den éischten Dag vun der Woch (0 - Sonndeg, 1 - Méindeg, ...).",
 	"semanticformsinputs-datepicker-firstdate": "Den éischten Datum deen erausgesicht ka ginn (am Format JJJJ/MM/DD)",
 	"semanticformsinputs-datepicker-lastdate": "De leschten Datum deen erausgesicht ka ginn (am Format JJJJ/MM/DD)",
+	"semanticformsinputs-datepicker-disabledaysofweek": "Eng Lëscht vun Deeg déi net erausgesicht kënne ginn (z. Bsp. Weekend:6, 0).",
 	"semanticformsinputs-timepicker-mintime": "Déi fréisten Zäit déi gewise gëtt. Format: hh:mm",
 	"semanticformsinputs-timepicker-maxtime": "Déi spéitsten Zäit déi gewise gëtt: Format: hh:mm",
 	"semanticformsinputs-timepicker-interval": "Intervalle tëscht de Minutten. Zuel tëscht 1 a 60.",
