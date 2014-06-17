@@ -47,6 +47,7 @@ $wgExtensionCredits[ 'semantic' ][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Semantic_Forms_Inputs',
 	'descriptionmsg' => 'semanticformsinputs-desc',
 	'version' => SFI_VERSION,
+	'license-name' => 'GPL-2.0+'
 );
 
 $dir = dirname( __FILE__ );
